@@ -1,0 +1,272 @@
+{
+  "source": "Original avatar_patrol_data[5001], idler_data, buff_data_all[46396], follow_group_data[6008]",
+  "simulator_rules": {
+    "tour_quest": 45199,
+    "sisters_quest": 45200,
+    "patrol_id": 5001,
+    "transform_state": 46396,
+    "follower_group": 6008,
+    "arrival_radius": 12,
+    "note": "The original server binding of 45199 to this local tour path is unavailable. Use the original nearby tour nodes as a simulator route; 6008 is corroborated by the retired version 42204 of the same quest."
+  },
+  "patrol": {
+    "id": 5001,
+    "node": {
+      "1": {
+        "event_id": 9201,
+        "patrol_type": 5,
+        "pos": [
+          -211.25,
+          -22.02,
+          185.9
+        ],
+        "speed": 5.0
+      },
+      "2": {
+        "event_id": 9202,
+        "patrol_type": 5,
+        "pos": [
+          -228.64,
+          -22.61,
+          145.29
+        ],
+        "speed": 5.0
+      },
+      "3": {
+        "event_id": 9203,
+        "patrol_type": 5,
+        "pos": [
+          -252.38,
+          -21.98,
+          137.44
+        ],
+        "speed": 5.0
+      },
+      "4": {
+        "event_id": 9204,
+        "patrol_type": 5,
+        "pos": [
+          -265.25,
+          -22.18,
+          145.22
+        ],
+        "speed": 5.0
+      }
+    }
+  },
+  "sisters": {
+    "14087": {
+      "action": [
+        "emote_2",
+        3,
+        1
+      ],
+      "aspect": 39068,
+      "gain_counters": [
+        6561,
+        1
+      ],
+      "gossip": [
+        "人皆言美人如玉，又几人懂得欣赏，几人懂得怜惜。"
+      ],
+      "id": 14087,
+      "is_still": true,
+      "name": "玉珠",
+      "req": {
+        "quests": [
+          42206,
+          45200
+        ]
+      },
+      "shout": "你问这极乐境？这里可是一方净土，幸福的好地方。",
+      "size": 1.0,
+      "title": "",
+      "visible": {
+        "quests": [
+          42206,
+          45200
+        ]
+      }
+    },
+    "14078": {
+      "action": [
+        "emote_2",
+        3,
+        1
+      ],
+      "aspect": 39064,
+      "gain_counters": [
+        6562,
+        1
+      ],
+      "gossip": [
+        "不爽快的人儿，可不招人喜欢。"
+      ],
+      "id": 14078,
+      "is_still": true,
+      "name": "悦珠",
+      "req": {
+        "quests": [
+          42206,
+          45200
+        ]
+      },
+      "shout": "这里的人儿，都有些武艺。",
+      "size": 1.0,
+      "title": "",
+      "visible": {
+        "quests": [
+          42204,
+          42205,
+          42206,
+          45199,
+          45200
+        ]
+      }
+    },
+    "14079": {
+      "action": [
+        "emote_2",
+        3,
+        1
+      ],
+      "aspect": 39066,
+      "gain_counters": [
+        6563,
+        1
+      ],
+      "gossip": [
+        "快猜，快猜，人家是姐姐，还是妹妹？"
+      ],
+      "id": 14079,
+      "is_still": true,
+      "name": "恋珠",
+      "req": {
+        "quests": [
+          42206,
+          45200
+        ]
+      },
+      "shout": "长读公子倒是帅气，就是太过多情了些。",
+      "size": 1.0,
+      "title": "",
+      "visible": {
+        "quests": [
+          42204,
+          42205,
+          42206,
+          45199,
+          45200
+        ]
+      }
+    },
+    "14080": {
+      "action": [
+        "emote_2",
+        3,
+        1
+      ],
+      "aspect": 39066,
+      "gain_counters": [
+        6564,
+        1
+      ],
+      "gossip": [
+        "我和恋珠，哪个更好看吖？"
+      ],
+      "id": 14080,
+      "is_still": true,
+      "name": "怜珠",
+      "req": {
+        "quests": [
+          42206,
+          45200
+        ]
+      },
+      "shout": "长读公子倒是多情，就是太过帅气了些。",
+      "size": 1.0,
+      "title": "",
+      "visible": {
+        "quests": [
+          42204,
+          42205,
+          42206,
+          45199,
+          45200
+        ]
+      }
+    },
+    "14081": {
+      "action": [
+        "emote_2",
+        3,
+        1
+      ],
+      "aspect": 39065,
+      "gain_counters": [
+        6565,
+        1
+      ],
+      "gossip": [
+        "虚幻的我，真实的我，到底哪个更美丽？！"
+      ],
+      "id": 14081,
+      "is_still": true,
+      "name": "幻珠",
+      "req": {
+        "quests": [
+          42206,
+          45200
+        ]
+      },
+      "shout": "这里很美，美得有些虚幻。",
+      "size": 1.0,
+      "title": "",
+      "visible": {
+        "quests": [
+          42204,
+          42205,
+          42206,
+          45199,
+          45200
+        ]
+      }
+    },
+    "14082": {
+      "action": [
+        "emote_2",
+        3,
+        1
+      ],
+      "aspect": 39067,
+      "gain_counters": [
+        6566,
+        1
+      ],
+      "gossip": [
+        "初见，既是缘。"
+      ],
+      "id": 14082,
+      "is_still": true,
+      "name": "明珠",
+      "req": {
+        "quests": [
+          42206,
+          45200
+        ]
+      },
+      "shout": "这里的人儿，都忘了自己的过去。",
+      "size": 1.0,
+      "title": "",
+      "visible": {
+        "quests": [
+          42204,
+          42205,
+          42206,
+          45199,
+          45200
+        ]
+      }
+    }
+  }
+}

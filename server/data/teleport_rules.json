@@ -1,0 +1,1288 @@
+{
+  "source": [
+    "teleportman_data.data",
+    "const.TELEPORTPOINT_COST",
+    "const.TRAFFIC_FREE_LV"
+  ],
+  "fare": 200,
+  "free_below_level": 25,
+  "templates": {
+    "1": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 1,
+      "is_still": true,
+      "name": "",
+      "region_name": "白骨洞后门",
+      "size": 0.5,
+      "title": ""
+    },
+    "2": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 2,
+      "is_still": true,
+      "name": "",
+      "region_name": "白骨洞前门",
+      "size": 0.5,
+      "title": ""
+    },
+    "3": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 3,
+      "is_still": true,
+      "name": "",
+      "region_name": "避难山谷",
+      "size": 0.5,
+      "title": ""
+    },
+    "4": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 4,
+      "is_still": true,
+      "name": "",
+      "region_name": "拉昂措湖",
+      "size": 0.5,
+      "title": ""
+    },
+    "5": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 5,
+      "is_still": true,
+      "name": "",
+      "region_name": "通往东蛮疆路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "6": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 6,
+      "is_still": true,
+      "name": "",
+      "region_name": "尸窟",
+      "size": 0.5,
+      "title": ""
+    },
+    "7": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 7,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "8": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 8,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "9": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 9,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "10": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 10,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "11": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 11,
+      "is_still": true,
+      "name": "",
+      "region_name": "扬州",
+      "size": 0.5,
+      "title": ""
+    },
+    "12": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 12,
+      "is_still": true,
+      "name": "",
+      "region_name": "荷花湖",
+      "size": 0.5,
+      "title": ""
+    },
+    "13": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 13,
+      "is_still": true,
+      "name": "",
+      "region_name": "盐田",
+      "size": 0.5,
+      "title": ""
+    },
+    "14": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 14,
+      "is_still": true,
+      "name": "",
+      "region_name": "东海码头",
+      "size": 0.5,
+      "title": ""
+    },
+    "15": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 15,
+      "is_still": true,
+      "name": "",
+      "region_name": "扬州城北门",
+      "size": 0.5,
+      "title": ""
+    },
+    "16": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 16,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "17": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 17,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "18": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 18,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "19": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 19,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "20": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 20,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "21": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 21,
+      "is_still": true,
+      "name": "",
+      "region_name": "粤东县",
+      "size": 0.5,
+      "title": ""
+    },
+    "22": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 22,
+      "is_still": true,
+      "name": "",
+      "region_name": "东樵山",
+      "size": 0.5,
+      "title": ""
+    },
+    "23": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 23,
+      "is_still": true,
+      "name": "",
+      "region_name": "葫芦谷",
+      "size": 0.5,
+      "title": ""
+    },
+    "24": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 24,
+      "is_still": true,
+      "name": "",
+      "region_name": "猫儿滩",
+      "size": 0.5,
+      "title": ""
+    },
+    "25": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 25,
+      "is_still": true,
+      "name": "",
+      "region_name": "冯军前锋营",
+      "size": 0.5,
+      "title": ""
+    },
+    "26": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 26,
+      "is_still": true,
+      "name": "",
+      "region_name": "河南道传送点",
+      "size": 0.5,
+      "title": ""
+    },
+    "27": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 27,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "28": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 28,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "29": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 29,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "30": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 30,
+      "is_still": true,
+      "name": "",
+      "region_name": "通往关内道路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "31": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 31,
+      "is_still": true,
+      "name": "",
+      "region_name": "福田药圃",
+      "size": 0.5,
+      "title": ""
+    },
+    "32": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 32,
+      "is_still": true,
+      "name": "",
+      "region_name": "通往岭南道路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "33": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 33,
+      "is_still": true,
+      "name": "",
+      "region_name": "花豫垄",
+      "size": 0.5,
+      "title": ""
+    },
+    "34": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 34,
+      "is_still": true,
+      "name": "",
+      "region_name": "紫燕亭",
+      "size": 0.5,
+      "title": ""
+    },
+    "36": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 36,
+      "is_still": true,
+      "name": "",
+      "region_name": "阿甲的山洞",
+      "size": 0.5,
+      "title": ""
+    },
+    "37": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 37,
+      "is_still": true,
+      "name": "",
+      "region_name": "清溪县",
+      "size": 0.5,
+      "title": ""
+    },
+    "38": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 38,
+      "is_still": true,
+      "name": "",
+      "region_name": "蜀山路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "39": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 39,
+      "is_still": true,
+      "name": "",
+      "region_name": "偏僻旧宅",
+      "size": 0.5,
+      "title": ""
+    },
+    "40": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 40,
+      "is_still": true,
+      "name": "",
+      "region_name": "林主小屋",
+      "size": 0.5,
+      "title": ""
+    },
+    "41": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 41,
+      "is_still": true,
+      "name": "",
+      "region_name": "银生寨",
+      "size": 0.5,
+      "title": ""
+    },
+    "42": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 42,
+      "is_still": true,
+      "name": "",
+      "region_name": "通往剑南道路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "43": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 43,
+      "is_still": true,
+      "name": "",
+      "region_name": "猫鬼营地",
+      "size": 0.5,
+      "title": ""
+    },
+    "44": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 44,
+      "is_still": true,
+      "name": "",
+      "region_name": "石林",
+      "size": 0.5,
+      "title": ""
+    },
+    "45": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 45,
+      "is_still": true,
+      "name": "",
+      "region_name": "通往岭南道路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "46": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 46,
+      "is_still": true,
+      "name": "",
+      "region_name": "胡狼巢穴",
+      "size": 0.5,
+      "title": ""
+    },
+    "47": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 47,
+      "is_still": true,
+      "name": "",
+      "region_name": "通往西蛮疆路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "48": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 48,
+      "is_still": true,
+      "name": "",
+      "region_name": "通往剑南道路口",
+      "size": 0.5,
+      "title": ""
+    },
+    "49": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 49,
+      "is_still": true,
+      "name": "",
+      "region_name": "黎州寨",
+      "size": 0.5,
+      "title": ""
+    },
+    "50": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 50,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "51": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 51,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "52": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 52,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "53": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 53,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "54": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 54,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "55": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 55,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "56": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 56,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "57": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 57,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "58": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 58,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "59": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 59,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "60": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 60,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "61": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 61,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "62": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 62,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "63": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 63,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "64": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 64,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "65": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 65,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "66": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 66,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "67": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 67,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "68": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 68,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "69": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 69,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "70": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 70,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "71": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 71,
+      "is_still": true,
+      "name": "",
+      "region_name": "流动商人营地",
+      "size": 0.5,
+      "title": ""
+    },
+    "72": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 72,
+      "is_still": true,
+      "name": "",
+      "region_name": "三魂洞",
+      "size": 0.5,
+      "title": ""
+    },
+    "73": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 73,
+      "is_still": true,
+      "name": "",
+      "region_name": "都斤山",
+      "size": 0.5,
+      "title": ""
+    },
+    "74": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 74,
+      "is_still": true,
+      "name": "",
+      "region_name": "地神坛",
+      "size": 0.5,
+      "title": ""
+    },
+    "75": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 75,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "76": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 76,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "77": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 77,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "78": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 78,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "79": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 79,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "80": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 80,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "81": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 81,
+      "is_still": true,
+      "name": "",
+      "region_name": "雁门关",
+      "size": 0.5,
+      "title": ""
+    },
+    "82": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 82,
+      "is_still": true,
+      "name": "",
+      "region_name": "朔方城",
+      "size": 0.5,
+      "title": ""
+    },
+    "83": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 83,
+      "is_still": true,
+      "name": "",
+      "region_name": "铁勒小村",
+      "size": 0.5,
+      "title": ""
+    },
+    "84": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 84,
+      "is_still": true,
+      "name": "",
+      "region_name": "废弃军营",
+      "size": 0.5,
+      "title": ""
+    },
+    "85": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 85,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "86": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 86,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "87": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 87,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "88": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 88,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "89": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 89,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "90": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 90,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "91": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 91,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "92": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 92,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "93": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 93,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "94": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 94,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "95": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 95,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "96": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 96,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "97": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 97,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "98": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 98,
+      "is_still": true,
+      "name": "",
+      "region_name": "白马塔",
+      "size": 0.5,
+      "title": ""
+    },
+    "99": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 99,
+      "is_still": true,
+      "name": "",
+      "region_name": "元家马场",
+      "size": 0.5,
+      "title": ""
+    },
+    "100": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 100,
+      "is_still": true,
+      "name": "",
+      "region_name": "瓜州村",
+      "size": 0.5,
+      "title": ""
+    },
+    "101": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 101,
+      "is_still": true,
+      "name": "",
+      "region_name": "戈壁残城",
+      "size": 0.5,
+      "title": ""
+    },
+    "102": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 102,
+      "is_still": true,
+      "name": "",
+      "region_name": "青牛溪",
+      "size": 0.5,
+      "title": ""
+    },
+    "103": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 103,
+      "is_still": true,
+      "name": "",
+      "region_name": "凉州城",
+      "size": 0.5,
+      "title": ""
+    },
+    "104": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 104,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "105": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 105,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "106": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 106,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "107": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 107,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "108": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 108,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "109": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 109,
+      "is_still": true,
+      "name": "",
+      "region_name": "1",
+      "size": 0.5,
+      "title": ""
+    },
+    "110": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 110,
+      "is_still": true,
+      "name": "",
+      "region_name": "钱庄路上",
+      "size": 0.5,
+      "title": ""
+    },
+    "111": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 111,
+      "is_still": true,
+      "name": "",
+      "region_name": "校场",
+      "size": 0.5,
+      "title": ""
+    },
+    "112": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 112,
+      "is_still": true,
+      "name": "",
+      "region_name": "龙脊塬",
+      "size": 0.5,
+      "title": ""
+    },
+    "113": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 113,
+      "is_still": true,
+      "name": "",
+      "region_name": "修罗帐",
+      "size": 0.5,
+      "title": ""
+    },
+    "114": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 114,
+      "is_still": true,
+      "name": "",
+      "region_name": "镇妖山",
+      "size": 0.5,
+      "title": ""
+    },
+    "115": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 115,
+      "is_still": true,
+      "name": "",
+      "region_name": "渭水便桥",
+      "size": 0.5,
+      "title": ""
+    },
+    "116": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 116,
+      "is_still": true,
+      "name": "",
+      "region_name": "泾阳营",
+      "size": 0.5,
+      "title": ""
+    },
+    "117": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 117,
+      "is_still": true,
+      "name": "",
+      "region_name": "东市",
+      "size": 0.5,
+      "title": ""
+    },
+    "118": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 118,
+      "is_still": true,
+      "name": "",
+      "region_name": "西市",
+      "size": 0.5,
+      "title": ""
+    },
+    "119": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 119,
+      "is_still": true,
+      "name": "",
+      "region_name": "观星台",
+      "size": 0.5,
+      "title": ""
+    },
+    "120": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 120,
+      "is_still": true,
+      "name": "",
+      "region_name": "帮派车夫",
+      "size": 0.5,
+      "title": ""
+    },
+    "121": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 121,
+      "is_still": true,
+      "name": "",
+      "region_name": "龙脊源路上",
+      "size": 0.5,
+      "title": "",
+      "virtue_lv": 1
+    },
+    "122": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 122,
+      "is_still": true,
+      "name": "",
+      "region_name": "关内矿坑",
+      "size": 0.5,
+      "title": "",
+      "virtue_lv": 4
+    },
+    "123": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 123,
+      "is_still": true,
+      "name": "",
+      "region_name": "好汉帮",
+      "size": 0.5,
+      "title": "",
+      "virtue_lv": 7
+    },
+    "124": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 124,
+      "is_still": true,
+      "name": "",
+      "region_name": "往东海岸",
+      "size": 0.5,
+      "title": "",
+      "virtue_lv": 10
+    },
+    "125": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 125,
+      "is_still": true,
+      "name": "",
+      "region_name": "大冰柱",
+      "size": 0.5,
+      "title": "",
+      "virtue_lv": 13
+    },
+    "126": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 126,
+      "is_still": true,
+      "name": "",
+      "region_name": "黄龙庵",
+      "size": 0.5,
+      "title": "",
+      "virtue_lv": 16
+    },
+    "127": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 127,
+      "is_still": true,
+      "name": "",
+      "region_name": "不周山顶",
+      "size": 0.5,
+      "title": "",
+      "virtue_lv": 19
+    },
+    "128": {
+      "aspect": 20450,
+      "auto_face": true,
+      "id": 128,
+      "is_still": true,
+      "name": "",
+      "region_name": "极乐境",
+      "size": 0.5,
+      "title": ""
+    }
+  }
+}

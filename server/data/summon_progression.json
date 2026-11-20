@@ -1,0 +1,18 @@
+{
+  "source": [
+    "const",
+    "exp_data.summon",
+    "impItemSummon.summonLevelUp",
+    "impItemSummon.summonCanAddExpAll"
+  ],
+  "maximum_level": 105,
+  "maximum_above_owner": 7,
+  "maximum_experience": 5000000000,
+  "maximum_threshold_multiple": 8,
+  "maximum_loyalty": 100,
+  "points_per_level": 4,
+  "simulator_rules": {
+    "battle_experience_threshold_fraction": 0.1,
+    "note": "Original server battle XP is unavailable. A surviving participant earns 10% of the original enemy-level summon threshold per victory. Thresholds, manual leveling and caps use original client rules."
+  }
+}

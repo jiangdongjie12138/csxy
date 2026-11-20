@@ -1,0 +1,5 @@
+{
+  "source": "monster_born identifies ordinary wild spawns; original server respawn timing is unavailable",
+  "simulator_respawn_seconds": 30,
+  "note": "The original reborn_protect_time field is protection, not proven respawn timing. This simulator cooldown is per saved character. Task encounters without that field retain their existing quest lifecycle."
+}

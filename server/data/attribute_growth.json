@@ -1,0 +1,22 @@
+{
+  "source": "Original combatattrcalc.pro1-pro8/pro31/pro32/pro41/pro42; Status.countDispatcher.dispatchedCount; archived official newbie_sxjd.html",
+  "policy": "simulator-growth-v1",
+  "free_points_per_level": 4,
+  "allocation_order": ["pro111", "pro113", "pro112", "pro110", "pro114"],
+  "primary_attributes": {"pro1": "pro111", "pro2": "pro113", "pro3": "pro110", "pro4": "pro112", "pro5": "pro114"},
+  "simulator_coefficients": {
+    "hp_grow": 20,
+    "mp_grow": 15,
+    "sudu_grow": 1,
+    "wl_gongji_grow": 2,
+    "fs_gongji_grow": 2,
+    "wl_fangyu_grow": 2,
+    "fs_fangyu_grow": 2,
+    "gengu_xishu": 10,
+    "lingli_xishu": 10,
+    "liliang_xishu": 2,
+    "zhihui_xishu": 2,
+    "minjie_xishu": 1
+  },
+  "limitation": "Original server school-specific growth coefficients and starting statistics are unavailable. The original linear formulas are applied as deltas from the established level-1 simulator baseline. Coefficients above are explicit uniform simulator values, not original school balance."
+}

@@ -1,0 +1,1114 @@
+{
+  "source": "csxyattr, equipment_attr_price, combatattr_range; Item.calcEquipBaseAttrs and formula.addRatioAttrs",
+  "equipment_units": {
+    "ar1": 0.01,
+    "ar121": 0.01,
+    "ar122": 0.01,
+    "ar2": 0.01,
+    "ar3": 0.01,
+    "ar31": 0.01,
+    "ar32": 0.01,
+    "ar4": 0.01,
+    "ar41": 0.01,
+    "ar42": 0.01,
+    "ar5": 0.01,
+    "ar6": 0.01,
+    "ar7": 0.01,
+    "ar8": 0.01,
+    "av1": 1.0,
+    "av11": 1.0,
+    "av115": 1.0,
+    "av116": 1.0,
+    "av117": 1.0,
+    "av118": 1.0,
+    "av119": 0.01,
+    "av12": 0.01,
+    "av121": 1.0,
+    "av122": 1.0,
+    "av123": 0.01,
+    "av124": 0.01,
+    "av126": 1.0,
+    "av127": 1.0,
+    "av128": 0.01,
+    "av129": 1.0,
+    "av13": 1.0,
+    "av130": 1.0,
+    "av131": 1.0,
+    "av132": 1.0,
+    "av133": 1.0,
+    "av14": 0.01,
+    "av15": 1.0,
+    "av16": 0.01,
+    "av17": 1.0,
+    "av18": 0.01,
+    "av19": 1.0,
+    "av2": 1.0,
+    "av20": 0.01,
+    "av21": 0.01,
+    "av22": 1.0,
+    "av23": 0.01,
+    "av24": 0.01,
+    "av25": 1.0,
+    "av26": 1.0,
+    "av3": 1.0,
+    "av31": 1.0,
+    "av32": 1.0,
+    "av33": 1.0,
+    "av34": 0.01,
+    "av35": 0.01,
+    "av36": 1.0,
+    "av37": 1.0,
+    "av38": 1.0,
+    "av39": 0.01,
+    "av4": 1.0,
+    "av40": 0.01,
+    "av41": 1.0,
+    "av42": 1.0,
+    "av43": 1.0,
+    "av44": 0.01,
+    "av45": 0.01,
+    "av46": 1.0,
+    "av47": 1.0,
+    "av48": 1.0,
+    "av49": 0.01,
+    "av5": 1.0,
+    "av50": 0.01,
+    "av51": 0.01,
+    "av52": 0.01,
+    "av53": 0.01,
+    "av54": 0.01,
+    "av55": 0.01,
+    "av56": 0.01,
+    "av57": 0.01,
+    "av6": 1.0,
+    "av61": 1.0,
+    "av62": 1.0,
+    "av63": 1.0,
+    "av64": 1.0,
+    "av65": 1.0,
+    "av66": 1.0,
+    "av7": 1.0,
+    "av71": 0.01,
+    "av72": 0.01,
+    "av73": 0.01,
+    "av74": 1.0,
+    "av75": 1.0,
+    "av76": 1.0,
+    "av77": 0.01,
+    "av78": 1.0,
+    "av79": 1.0,
+    "av8": 1.0,
+    "av80": 0.01,
+    "av81": 0.01,
+    "av82": 1.0,
+    "av83": 1.0,
+    "av84": 0.01,
+    "av85": 0.01,
+    "av86": 0.01,
+    "av87": 0.01,
+    "av89": 0.01,
+    "av91": 0.01,
+    "av92": 0.01,
+    "av93": 0.01,
+    "av94": 0.01,
+    "av96": 0.01,
+    "av97": 1.0,
+    "av98": 0.01,
+    "av99": 0.01
+  },
+  "unscaled_equipment_attributes": [
+    "av39",
+    "av40",
+    "av49",
+    "av50"
+  ],
+  "attributes": {
+    "pro100": {
+      "name": "生命",
+      "type": "int",
+      "layer": 0
+    },
+    "pro101": {
+      "name": "法力",
+      "type": "int",
+      "layer": 0
+    },
+    "pro103": {
+      "name": "怒气",
+      "type": "int",
+      "layer": 0
+    },
+    "pro104": {
+      "name": "蓄技点",
+      "type": "int",
+      "layer": 0
+    },
+    "pro105": {
+      "name": "流派",
+      "type": "int",
+      "layer": 0
+    },
+    "pro106": {
+      "name": "等级",
+      "type": "int",
+      "layer": 0
+    },
+    "pro107": {
+      "name": "血池",
+      "type": "int",
+      "layer": 0
+    },
+    "pro108": {
+      "name": "法池",
+      "type": "int",
+      "layer": 0
+    },
+    "pro110": {
+      "name": "力量加点",
+      "type": "int",
+      "layer": 0
+    },
+    "pro111": {
+      "name": "根骨加点",
+      "type": "int",
+      "layer": 0
+    },
+    "pro112": {
+      "name": "敏捷加点",
+      "type": "int",
+      "layer": 0
+    },
+    "pro113": {
+      "name": "灵力加点",
+      "type": "int",
+      "layer": 0
+    },
+    "pro114": {
+      "name": "智慧加点",
+      "type": "int",
+      "layer": 0
+    },
+    "pro125": {
+      "name": "种族",
+      "type": "int",
+      "layer": 0
+    },
+    "pro88": {
+      "name": "当前储存伤害",
+      "type": "float",
+      "layer": 0
+    },
+    "pro10": {
+      "name": "成长率",
+      "type": "int",
+      "layer": 0
+    },
+    "pro9": {
+      "name": "道",
+      "type": "int",
+      "layer": 1
+    },
+    "pro127": {
+      "name": "克制种族",
+      "type": "int",
+      "layer": 1
+    },
+    "pro128": {
+      "name": "克制效果",
+      "type": "float",
+      "layer": 1
+    },
+    "pro90": {
+      "name": "蓄技点上限",
+      "type": "int",
+      "layer": 1
+    },
+    "pro26": {
+      "name": "影响人数",
+      "type": "float",
+      "layer": 1
+    },
+    "pro1": {
+      "name": "根骨",
+      "type": "float",
+      "layer": 101
+    },
+    "pro2": {
+      "name": "灵力",
+      "type": "float",
+      "layer": 101
+    },
+    "pro3": {
+      "name": "力量",
+      "type": "float",
+      "layer": 101
+    },
+    "pro4": {
+      "name": "敏捷",
+      "type": "float",
+      "layer": 101
+    },
+    "pro5": {
+      "name": "智慧",
+      "type": "float",
+      "layer": 101
+    },
+    "pro31": {
+      "name": "物理攻击强度",
+      "type": "float",
+      "layer": 201
+    },
+    "pro41": {
+      "name": "法术攻击强度",
+      "type": "float",
+      "layer": 201
+    },
+    "pro39": {
+      "name": "武器物理最大系数",
+      "type": "float",
+      "layer": 201
+    },
+    "pro40": {
+      "name": "武器物理最小系数",
+      "type": "float",
+      "layer": 201
+    },
+    "pro49": {
+      "name": "武器法术最大系数",
+      "type": "float",
+      "layer": 201
+    },
+    "pro50": {
+      "name": "武器法术最小系数",
+      "type": "float",
+      "layer": 201
+    },
+    "pro32": {
+      "name": "物理防御强度",
+      "type": "float",
+      "layer": 301
+    },
+    "pro42": {
+      "name": "法术防御强度",
+      "type": "float",
+      "layer": 301
+    },
+    "pro36": {
+      "name": "物理减免值",
+      "type": "float",
+      "layer": 301
+    },
+    "pro46": {
+      "name": "法术减免值",
+      "type": "float",
+      "layer": 301
+    },
+    "pro61": {
+      "name": "风属性伤害",
+      "type": "float",
+      "layer": 301
+    },
+    "pro62": {
+      "name": "火属性伤害",
+      "type": "float",
+      "layer": 301
+    },
+    "pro63": {
+      "name": "水属性伤害",
+      "type": "float",
+      "layer": 301
+    },
+    "pro64": {
+      "name": "雷属性伤害",
+      "type": "float",
+      "layer": 301
+    },
+    "pro65": {
+      "name": "佛光属性伤害",
+      "type": "float",
+      "layer": 301
+    },
+    "pro66": {
+      "name": "魔光属性伤害",
+      "type": "float",
+      "layer": 301
+    },
+    "pro79": {
+      "name": "混沌伤害",
+      "type": "float",
+      "layer": 301
+    },
+    "pro121": {
+      "name": "武器物理攻击强度",
+      "type": "float",
+      "layer": 301
+    },
+    "pro122": {
+      "name": "武器法术攻击强度",
+      "type": "float",
+      "layer": 301
+    },
+    "pro126": {
+      "name": "刚毅",
+      "type": "float",
+      "layer": 301
+    },
+    "pro7": {
+      "name": "最大生命",
+      "type": "int",
+      "layer": 401
+    },
+    "pro8": {
+      "name": "最大法力",
+      "type": "int",
+      "layer": 401
+    },
+    "pro74": {
+      "name": "最大怒气",
+      "type": "int",
+      "layer": 401
+    },
+    "pro6": {
+      "name": "速度",
+      "type": "float",
+      "layer": 401
+    },
+    "pro51": {
+      "name": "风抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro52": {
+      "name": "火抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro53": {
+      "name": "水抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro54": {
+      "name": "雷抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro55": {
+      "name": "佛光抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro56": {
+      "name": "魔光抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro130": {
+      "name": "退兵控制抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro131": {
+      "name": "迷惑控制抗性",
+      "type": "float",
+      "layer": 401
+    },
+    "pro37": {
+      "name": "物理最大攻击力",
+      "type": "float",
+      "layer": 401
+    },
+    "pro38": {
+      "name": "物理最小攻击力",
+      "type": "float",
+      "layer": 401
+    },
+    "pro47": {
+      "name": "法术最大攻击力",
+      "type": "float",
+      "layer": 401
+    },
+    "pro48": {
+      "name": "法术最小攻击力",
+      "type": "float",
+      "layer": 401
+    },
+    "pro89": {
+      "name": "技能消耗生命比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro73": {
+      "name": "技能消耗法力比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro80": {
+      "name": "技能消耗速度比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro33": {
+      "name": "物理暴击悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro35": {
+      "name": "物理暴击比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro43": {
+      "name": "法术暴击悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro45": {
+      "name": "法术暴击比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro13": {
+      "name": "格挡悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro15": {
+      "name": "躲闪悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro11": {
+      "name": "命中悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro17": {
+      "name": "反击悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro19": {
+      "name": "反震悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro21": {
+      "name": "反震比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro22": {
+      "name": "反弹伤害",
+      "type": "float",
+      "layer": 501
+    },
+    "pro23": {
+      "name": "反噬伤害比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro78": {
+      "name": "格挡效果",
+      "type": "float",
+      "layer": 501
+    },
+    "pro76": {
+      "name": "连击悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro83": {
+      "name": "吸血效果",
+      "type": "float",
+      "layer": 501
+    },
+    "pro94": {
+      "name": "物理免伤比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro93": {
+      "name": "法术免伤比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro91": {
+      "name": "最终物理防御修正",
+      "type": "float",
+      "layer": 501
+    },
+    "pro98": {
+      "name": "最终法术防御修正",
+      "type": "float",
+      "layer": 501
+    },
+    "pro92": {
+      "name": "最终物理伤害修正",
+      "type": "float",
+      "layer": 501
+    },
+    "pro96": {
+      "name": "最终法术伤害修正",
+      "type": "float",
+      "layer": 501
+    },
+    "pro99": {
+      "name": "物理伤害加成",
+      "type": "float",
+      "layer": 501
+    },
+    "pro57": {
+      "name": "法术伤害加成",
+      "type": "float",
+      "layer": 501
+    },
+    "pro25": {
+      "name": "破防强度",
+      "type": "float",
+      "layer": 501
+    },
+    "pro115": {
+      "name": "物暴回避悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro116": {
+      "name": "法暴回避悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro117": {
+      "name": "反击回避悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro118": {
+      "name": "反震回避悟性",
+      "type": "float",
+      "layer": 501
+    },
+    "pro119": {
+      "name": "反震减少比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro123": {
+      "name": "物暴伤害减少比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro124": {
+      "name": "法暴伤害减少比例",
+      "type": "float",
+      "layer": 501
+    },
+    "pro75": {
+      "name": "状态命中能力",
+      "type": "float",
+      "layer": 501
+    },
+    "pro129": {
+      "name": "状态回避能力",
+      "type": "float",
+      "layer": 501
+    },
+    "pro120": {
+      "name": "最大储存伤害",
+      "type": "float",
+      "layer": 601
+    },
+    "pro81": {
+      "name": "回复技能效果比例",
+      "type": "float",
+      "layer": 601
+    },
+    "pro87": {
+      "name": "回复效果强化比例",
+      "type": "float",
+      "layer": 601
+    },
+    "pro109": {
+      "name": "节省蓄技点",
+      "type": "int",
+      "layer": 601
+    },
+    "pro132": {
+      "name": "退兵控制能力",
+      "type": "float",
+      "layer": 601
+    },
+    "pro133": {
+      "name": "迷惑控制能力",
+      "type": "float",
+      "layer": 601
+    },
+    "pro71": {
+      "name": "迷惑苏醒率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro72": {
+      "name": "退兵苏醒率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro84": {
+      "name": "状态延时1回合率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro85": {
+      "name": "迷惑成功率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro86": {
+      "name": "退兵成功率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro12": {
+      "name": "命中率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro14": {
+      "name": "格挡率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro16": {
+      "name": "躲闪率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro18": {
+      "name": "反击率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro20": {
+      "name": "反震率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro34": {
+      "name": "物理暴击率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro44": {
+      "name": "法术暴击率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro77": {
+      "name": "连击率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro82": {
+      "name": "最大连击次数",
+      "type": "int",
+      "layer": 701
+    },
+    "pro24": {
+      "name": "破防比例",
+      "type": "float",
+      "layer": 701
+    },
+    "pro95": {
+      "name": "类唤兽出击率",
+      "type": "float",
+      "layer": 701
+    },
+    "pro97": {
+      "name": "破防值",
+      "type": "float",
+      "layer": 701
+    }
+  },
+  "ranges": {
+    "pro1": [
+      0.0,
+      99999.0
+    ],
+    "pro100": [
+      0,
+      999999
+    ],
+    "pro101": [
+      0,
+      999999
+    ],
+    "pro107": [
+      0,
+      9999999
+    ],
+    "pro108": [
+      0,
+      9999999
+    ],
+    "pro11": [
+      -9999.0,
+      9999.0
+    ],
+    "pro110": [
+      0,
+      999
+    ],
+    "pro111": [
+      0,
+      999
+    ],
+    "pro112": [
+      0,
+      999
+    ],
+    "pro113": [
+      0,
+      999
+    ],
+    "pro114": [
+      0,
+      999
+    ],
+    "pro12": [
+      -1.0,
+      1.0
+    ],
+    "pro120": [
+      0.0,
+      99999.0
+    ],
+    "pro121": [
+      0.0,
+      999999.0
+    ],
+    "pro122": [
+      0.0,
+      999999.0
+    ],
+    "pro126": [
+      0.0,
+      9999.0
+    ],
+    "pro127": [
+      0,
+      99
+    ],
+    "pro13": [
+      0.0,
+      9999.0
+    ],
+    "pro130": [
+      -999.0,
+      999.0
+    ],
+    "pro131": [
+      -999.0,
+      999.0
+    ],
+    "pro132": [
+      -999.0,
+      999.0
+    ],
+    "pro133": [
+      -999.0,
+      999.0
+    ],
+    "pro14": [
+      0.0,
+      1.0
+    ],
+    "pro15": [
+      -9999.0,
+      9999.0
+    ],
+    "pro16": [
+      0.0,
+      1.0
+    ],
+    "pro17": [
+      0.0,
+      9999.0
+    ],
+    "pro18": [
+      0.0,
+      1.0
+    ],
+    "pro19": [
+      0.0,
+      9999.0
+    ],
+    "pro2": [
+      0.0,
+      99999.0
+    ],
+    "pro20": [
+      0.0,
+      1.0
+    ],
+    "pro21": [
+      0.0,
+      3.0
+    ],
+    "pro22": [
+      -99999.0,
+      99999.0
+    ],
+    "pro23": [
+      -2.0,
+      2.0
+    ],
+    "pro24": [
+      -0.5,
+      1.0
+    ],
+    "pro25": [
+      0.0,
+      9999.0
+    ],
+    "pro26": [
+      -10.0,
+      10.0
+    ],
+    "pro3": [
+      0.0,
+      99999.0
+    ],
+    "pro31": [
+      0.0,
+      99999.0
+    ],
+    "pro32": [
+      -99999.0,
+      99999.0
+    ],
+    "pro33": [
+      0.0,
+      9999.0
+    ],
+    "pro34": [
+      0.0,
+      1.0
+    ],
+    "pro35": [
+      1.0,
+      3.0
+    ],
+    "pro36": [
+      -99999.0,
+      99999.0
+    ],
+    "pro37": [
+      0.0,
+      999999.0
+    ],
+    "pro38": [
+      0.0,
+      999999.0
+    ],
+    "pro4": [
+      0.0,
+      99999.0
+    ],
+    "pro41": [
+      0.0,
+      99999.0
+    ],
+    "pro42": [
+      -99999.0,
+      99999.0
+    ],
+    "pro43": [
+      0.0,
+      9999.0
+    ],
+    "pro44": [
+      0.0,
+      1.0
+    ],
+    "pro45": [
+      1.0,
+      3.0
+    ],
+    "pro46": [
+      -99999.0,
+      99999.0
+    ],
+    "pro47": [
+      0.0,
+      999999.0
+    ],
+    "pro48": [
+      0.0,
+      999999.0
+    ],
+    "pro5": [
+      0.0,
+      99999.0
+    ],
+    "pro51": [
+      -1.0,
+      0.8
+    ],
+    "pro52": [
+      -1.0,
+      0.8
+    ],
+    "pro53": [
+      -1.0,
+      0.8
+    ],
+    "pro54": [
+      -1.0,
+      0.8
+    ],
+    "pro55": [
+      -1.0,
+      0.8
+    ],
+    "pro56": [
+      -1.0,
+      0.8
+    ],
+    "pro6": [
+      0.0,
+      99999.0
+    ],
+    "pro61": [
+      -99999.0,
+      99999.0
+    ],
+    "pro62": [
+      -99999.0,
+      99999.0
+    ],
+    "pro63": [
+      -99999.0,
+      99999.0
+    ],
+    "pro64": [
+      -99999.0,
+      99999.0
+    ],
+    "pro65": [
+      -99999.0,
+      99999.0
+    ],
+    "pro66": [
+      -99999.0,
+      99999.0
+    ],
+    "pro7": [
+      0,
+      999999
+    ],
+    "pro71": [
+      0.0,
+      1.0
+    ],
+    "pro72": [
+      0.0,
+      1.0
+    ],
+    "pro73": [
+      0.0,
+      9.0
+    ],
+    "pro74": [
+      0,
+      300
+    ],
+    "pro76": [
+      0.0,
+      9999.0
+    ],
+    "pro77": [
+      0.0,
+      1.6
+    ],
+    "pro78": [
+      0.0,
+      99999.0
+    ],
+    "pro79": [
+      -99999.0,
+      99999.0
+    ],
+    "pro8": [
+      0,
+      999999
+    ],
+    "pro80": [
+      0.0,
+      9.0
+    ],
+    "pro81": [
+      0.0,
+      5.0
+    ],
+    "pro82": [
+      0,
+      9
+    ],
+    "pro83": [
+      -10000.0,
+      10000.0
+    ],
+    "pro84": [
+      -9.0,
+      9.0
+    ],
+    "pro85": [
+      0.0,
+      0.5
+    ],
+    "pro86": [
+      0.0,
+      0.5
+    ],
+    "pro87": [
+      -1.0,
+      5.0
+    ],
+    "pro88": [
+      0.0,
+      999999.0
+    ],
+    "pro89": [
+      0.0,
+      9.0
+    ],
+    "pro92": [
+      -3.0,
+      3.0
+    ],
+    "pro93": [
+      -1.0,
+      1.0
+    ],
+    "pro94": [
+      -1.0,
+      1.0
+    ],
+    "pro95": [
+      0.0,
+      1.0
+    ],
+    "pro96": [
+      -3.0,
+      3.0
+    ]
+  },
+  "module_sha256": {
+    "csxyattr": "c8b1bc52aaf2dde34f6b1d45c036fee24c7184bb3f88654c7469aa1fadbca981",
+    "equipment_attr_price": "e751b362ffe7fb97d9cb2d9f874abfba424e16abed3b80a2d643ffcafa9b6ec4",
+    "combatattr_range": "5ba867e07211b1fcbdabe0ea3068440b63bab71b90962f5fce17581dcb019490"
+  },
+  "limitations": [
+    "School growth, skills, pearls, magical attribute libraries and battle damage formulas remain unrecovered."
+  ]
+}

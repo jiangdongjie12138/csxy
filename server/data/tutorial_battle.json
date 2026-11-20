@@ -1,0 +1,501 @@
+{
+  "source": "client warrior_pb2/avatar_pb2 descriptors, monster_data and monster_born",
+  "descriptor_sha256": {
+    "warrior_pb2": "6b119911f0c4a7762ce600229ce0a7e041dab6bff48a1b46822bcd1eac9cfd0e",
+    "avatar_pb2": "d56aab9fc99341f64ded9588cc368c04a08346fbc38002591c1d1f12395eb067"
+  },
+  "schema": {
+    "StateInfo": [
+      {
+        "name": "id",
+        "number": 1,
+        "type": 7,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "index",
+        "number": 2,
+        "type": 13,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "level",
+        "number": 3,
+        "type": 13,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "bout",
+        "number": 4,
+        "type": 13,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "effects",
+        "number": 5,
+        "type": 11,
+        "label": 3,
+        "message": "Effect"
+      }
+    ],
+    "AvatarWarriorInfo": [
+      {
+        "name": "aspect",
+        "number": 1,
+        "type": 11,
+        "label": 1,
+        "message": "AspectInfo"
+      },
+      {
+        "name": "physique",
+        "number": 2,
+        "type": 11,
+        "label": 1,
+        "message": "PhysiqueInfo"
+      },
+      {
+        "name": "roleName",
+        "number": 3,
+        "type": 12,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "gscolor",
+        "number": 4,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "entityID",
+        "number": 5,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      }
+    ],
+    "MonsterWarriorInfo": [
+      {
+        "name": "monsterID",
+        "number": 1,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "aspect",
+        "number": 2,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "physique",
+        "number": 3,
+        "type": 11,
+        "label": 1,
+        "message": "PhysiqueInfo"
+      },
+      {
+        "name": "roleName",
+        "number": 4,
+        "type": 12,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "title",
+        "number": 5,
+        "type": 12,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "avatarAspect",
+        "number": 6,
+        "type": 11,
+        "label": 1,
+        "message": "AspectInfo"
+      }
+    ],
+    "SummonWarriorInfo": [
+      {
+        "name": "summonID",
+        "number": 1,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "summonName",
+        "number": 2,
+        "type": 12,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "title",
+        "number": 3,
+        "type": 12,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "owner",
+        "number": 4,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "grow",
+        "number": 5,
+        "type": 2,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "gscolor",
+        "number": 6,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "rupu",
+        "number": 7,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "summonPose",
+        "number": 8,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "aspect",
+        "number": 9,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      }
+    ],
+    "SimSummonWarriorInfo": [
+      {
+        "name": "monsterID",
+        "number": 1,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      }
+    ],
+    "WarriorInfo": [
+      {
+        "name": "type",
+        "number": 1,
+        "type": 13,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "sid",
+        "number": 2,
+        "type": 13,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "x",
+        "number": 3,
+        "type": 2,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "y",
+        "number": 4,
+        "type": 2,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "camp",
+        "number": 5,
+        "type": 13,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "level",
+        "number": 6,
+        "type": 13,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "hp",
+        "number": 7,
+        "type": 2,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "mhp",
+        "number": 8,
+        "type": 2,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "mp",
+        "number": 9,
+        "type": 2,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "mmp",
+        "number": 10,
+        "type": 2,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "isDead",
+        "number": 11,
+        "type": 8,
+        "label": 2,
+        "message": ""
+      },
+      {
+        "name": "states",
+        "number": 12,
+        "type": 11,
+        "label": 3,
+        "message": "StateInfo"
+      },
+      {
+        "name": "avatar",
+        "number": 13,
+        "type": 11,
+        "label": 1,
+        "message": "AvatarWarriorInfo"
+      },
+      {
+        "name": "monster",
+        "number": 14,
+        "type": 11,
+        "label": 1,
+        "message": "MonsterWarriorInfo"
+      },
+      {
+        "name": "summon",
+        "number": 15,
+        "type": 11,
+        "label": 1,
+        "message": "SummonWarriorInfo"
+      },
+      {
+        "name": "simsummon",
+        "number": 16,
+        "type": 11,
+        "label": 1,
+        "message": "SimSummonWarriorInfo"
+      }
+    ],
+    "AspectInfo": [
+      {
+        "name": "head",
+        "number": 1,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "shoulder",
+        "number": 2,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "body",
+        "number": 3,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "righthand",
+        "number": 4,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "wrist",
+        "number": 5,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "waist",
+        "number": 6,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "feet",
+        "number": 7,
+        "type": 7,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "lefthand",
+        "number": 8,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "leg",
+        "number": 9,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "mantle",
+        "number": 10,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "primary",
+        "number": 11,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "horse",
+        "number": 12,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "shoulder_effect",
+        "number": 13,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "righthand_effect",
+        "number": 14,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "wrist_effect",
+        "number": 15,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "aspect_hide",
+        "number": 16,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      }
+    ],
+    "PhysiqueInfo": [
+      {
+        "name": "school",
+        "number": 1,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "sex",
+        "number": 2,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "facestyle",
+        "number": 3,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "hairstyle",
+        "number": 4,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      },
+      {
+        "name": "haircolor",
+        "number": 5,
+        "type": 13,
+        "label": 1,
+        "message": ""
+      }
+    ]
+  },
+  "monster": {
+    "aspect": 10379,
+    "id": 42581,
+    "name": "玉凤蝶",
+    "size": 1.0,
+    "star": 2,
+    "type": 2
+  },
+  "born": {
+    "action_type": 0,
+    "aspect": 10379,
+    "dao": 7,
+    "id": 42503,
+    "level": 2,
+    "level_type": 1,
+    "max_life": 0,
+    "name": "玉凤蝶",
+    "size": 1.0,
+    "star": 2,
+    "title": ""
+  },
+  "simulator_rules": {
+    "enemy_hp": 60,
+    "player_damage": 25,
+    "enemy_damage": 10,
+    "guard_damage": 5,
+    "input_seconds": 30,
+    "animation_seconds": 6,
+    "field": "universes/eg/wf/wf_xh",
+    "drop_item": 58081
+  },
+  "limitations": [
+    "Combat numbers and field selection are simulator defaults; original server formulas are unavailable.",
+    "Only the 45198 butterfly tutorial encounter is supported; no generic experience or money is invented."
+  ]
+}

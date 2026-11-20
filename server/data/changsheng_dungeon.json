@@ -1,0 +1,265 @@
+{
+  "source": "original fuben_data[511], events 701-705, entryman 8, exitman 6, switch_data[600:601], quest 14025 and monster models 33361-33363",
+  "id": 511,
+  "quest": 14025,
+  "entry": 8,
+  "exit": 6,
+  "definition": {
+    "desc": "寻找关内道崔家老爷到底在搞什么东西",
+    "events": [
+      704,
+      705,
+      701,
+      702,
+      703
+    ],
+    "finish_event": 704,
+    "id": 511,
+    "in": {
+      "dir": [
+        0.0,
+        0.0,
+        -1.62
+      ],
+      "pos": [
+        29.0,
+        62.41,
+        7.46
+      ]
+    },
+    "level": 20,
+    "loading_picture": "loading_fb_csds",
+    "max_player": 5,
+    "min_player": 1,
+    "multiple_exp": false,
+    "name": "长生丹室",
+    "out": {
+      "dir": [
+        0.0,
+        0.0,
+        -0.39
+      ],
+      "pos": [
+        -427.51,
+        19.21,
+        -883.23
+      ],
+      "space_no": 11
+    },
+    "reborn_point": {
+      "dir": [
+        0.0,
+        0.0,
+        -1.62
+      ],
+      "pos": [
+        29.0,
+        62.41,
+        7.46
+      ]
+    },
+    "req": {
+      "min_lv": 20
+    },
+    "time": 2.0,
+    "wraptype": 1
+  },
+  "events": {
+    "701": {
+      "desc": "揭开陆道长的真面目",
+      "finish": {
+        "opera": [
+          "{0:[\"a37190|鹿力\",\"呦呦~~，本、本鹿力大仙今日有点不舒服就暂时放你们一马，呦呦~~，你们赶紧逃跑吧！！\"]}",
+          true
+        ]
+      },
+      "fuben_id": 511,
+      "id": 701,
+      "name": "揭开陆道长的真面目",
+      "process_num": 1
+    },
+    "702": {
+      "desc": "揭开杨道长的真面目",
+      "finish": {
+        "opera": [
+          "{0:[\"a37191|羊力\",\"咩~咩~，今晨本大仙算过，今日不能杀生，你们快离开这里，咩~咩~不然，不然本大仙用出了真功夫，那时候就晚了！\"]}",
+          true
+        ],
+        "switches": [
+          600
+        ]
+      },
+      "fuben_id": 511,
+      "id": 702,
+      "name": "揭开杨道长的真面目",
+      "process_num": 2,
+      "tips": "(#c00CC33 地宫上层中心的八卦地板打开了)"
+    },
+    "703": {
+      "desc": "揭开胡道长的真面目",
+      "finish": {
+        "opera": [
+          "{0:[\"a37192|虎力\",\"吼~~，恩，今日乃初一祭日，本大仙只食斋素，吼~~，你们运气很好，趁着有命赶紧离开吧，本大仙就先去休息一会儿了，不用追上来了，快点回去吧你们。\"]}",
+          true
+        ]
+      },
+      "fuben_id": 511,
+      "id": 703,
+      "name": "揭开胡道长的真面目",
+      "process_num": 3
+    },
+    "704": {
+      "desc": "将鹿力、羊力、虎力打败，驱逐出崔家大院",
+      "finish": {
+        "fubenexitmen": [
+          [
+            [
+              5.66,
+              6.53,
+              -55.98
+            ],
+            [
+              0.0,
+              0.0,
+              -1.62
+            ],
+            6,
+            -1
+          ]
+        ],
+        "opera": [
+          "{0:[\"a37192|虎力\",\"吼~~，哎，我等是元气大伤，只待在这里借镇妖山的妖气修炼，都不行。大唐能人太多，看来我们只能西去，听说那里有个叫车迟的小国修仙不错，我们就去那里糊弄下吧。吼~~兄弟们！快跑！\",\"1\"],1:[\"a37191|羊力\",\"咩~~，对，今日若非我兄弟三人有伤在身才让你们钻了空子，咩~~，日后必还今日之耻！\",\"2\"],2:[\"a37190|鹿力\",\"呦呦~~，你们也别得意，哼，呦呦~~（向远方大喊），臭和尚，今日你找人来破坏我们，他日我们要你们这群死和尚好看！\"]}",
+          true
+        ]
+      },
+      "fuben_id": 511,
+      "id": 704,
+      "name": "将鹿力、羊力、虎力打败，驱逐出崔家大院",
+      "process_num": 4
+    },
+    "705": {
+      "finish": {
+        "switches": [
+          601
+        ]
+      },
+      "fuben_id": 511,
+      "id": 705,
+      "name": "机关门打开",
+      "prior_and": [
+        701,
+        702,
+        703
+      ],
+      "tips": "(#c00CC33 地宫下层的八卦石壁打开了)"
+    }
+  },
+  "switches": {
+    "600": {
+      "closed": {
+        "collision": true,
+        "model_id": 20256,
+        "size": 1.0
+      },
+      "dir": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 600,
+      "name": "",
+      "opened": {
+        "action": "open",
+        "keep_last_frame": true,
+        "model_id": 37077,
+        "size": 1.0
+      },
+      "pos": [
+        -3.26,
+        28.53,
+        0.0
+      ],
+      "reborn_time": -1,
+      "req": {
+        "stat": 47110
+      },
+      "second_name": "长生丹室机关1",
+      "space_no": 511
+    },
+    "601": {
+      "closed": {
+        "collision": true,
+        "model_id": 20183,
+        "size": 1.5
+      },
+      "dir": [
+        0.0,
+        0.0,
+        3.14
+      ],
+      "id": 601,
+      "name": "",
+      "opened": {
+        "model_id": 20450,
+        "size": 1.0
+      },
+      "pos": [
+        -3.35,
+        5.01,
+        -31.19
+      ],
+      "reborn_time": -1,
+      "req": {
+        "stat": 47110
+      },
+      "second_name": "长生丹室机关2",
+      "space_no": 511
+    }
+  },
+  "switch_client_type": 92,
+  "stages": {
+    "33358": {
+      "event": 701,
+      "battle": 7537
+    },
+    "33359": {
+      "event": 702,
+      "battle": 7538
+    },
+    "33360": {
+      "event": 703,
+      "battle": 7539
+    }
+  },
+  "true_forms": {
+    "33361": {
+      "monster": 33157,
+      "position": [
+        0.8,
+        6.54,
+        -53.63
+      ]
+    },
+    "33362": {
+      "monster": 33158,
+      "position": [
+        3.8,
+        6.54,
+        -53.63
+      ]
+    },
+    "33363": {
+      "monster": 33159,
+      "position": [
+        -2.2,
+        6.54,
+        -53.63
+      ]
+    }
+  },
+  "single_player_policy": {
+    "final_encounters": "three separate fights with original true-form models; original simultaneous three-enemy battle not implemented",
+    "lifetime_seconds": 7200,
+    "final_offsets": "deer original spawn; sheep and tiger offset by 3m on the same platform; equipment drop library unavailable"
+  }
+}
