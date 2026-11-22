@@ -1,0 +1,364 @@
+{
+  "generated_at_utc": "2026-11-22T03:33:21.913426+00:00",
+  "scope": "source audit and isolated synthetic packet probes; stock readers are Python ports",
+  "native_bigworld_engine_executed": false,
+  "real_client_capture_replayed": false,
+  "real_game_save_or_session_read": false,
+  "game_server_source_modified": false,
+  "checks_passed": 35,
+  "checks_failed": 0,
+  "versions": {
+    "1.9.1": {
+      "login_minimum": 51,
+      "login_maximum": 51,
+      "accepts_43": false,
+      "nonce_preserved": false,
+      "stock_login_compatible": false
+    },
+    "2.0.1": {
+      "login_minimum": 56,
+      "login_maximum": 56,
+      "accepts_43": false,
+      "nonce_preserved": true,
+      "stock_login_compatible": false
+    }
+  },
+  "checks": [
+    {
+      "name": "csxy_login_request_bytes",
+      "observed": 145,
+      "expected": 145,
+      "passed": true
+    },
+    {
+      "name": "csxy_actual_parser_accepts_synthetic_request",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "rsa_oaep_roundtrip",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "1.9.1:stock_gate_accepts_43",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "1.9.1:stock_gate_accepts_own_version",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "1.9.1:login_fields_decodable_after_gate_override",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "1.9.1:single_nonce_reader_value",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "1.9.1:single_nonce_remaining_bytes",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "2.0.1:stock_gate_accepts_43",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "2.0.1:stock_gate_accepts_own_version",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "2.0.1:login_fields_decodable_after_gate_override",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "2.0.1:single_nonce_reader_value",
+      "observed": 305419896,
+      "expected": 305419896,
+      "passed": true
+    },
+    {
+      "name": "2.0.1:single_nonce_remaining_bytes",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "1.9.1:double_nonce_control",
+      "observed": 305419896,
+      "expected": 305419896,
+      "passed": true
+    },
+    {
+      "name": "csxy_success_record_bytes",
+      "observed": 20,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "name": "stock_success_record_bytes",
+      "observed": 12,
+      "expected": 12,
+      "passed": true
+    },
+    {
+      "name": "common_address_and_token_prefix",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "stock_success_record_cipher_bytes",
+      "observed": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "name": "stock_decrypted_record_has_required_20_bytes",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "csxy_success_record_cipher_bytes",
+      "observed": 24,
+      "expected": 24,
+      "passed": true
+    },
+    {
+      "name": "same_blowfish_stream_algorithm",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "csxy_login_reply_bytes",
+      "observed": 36,
+      "expected": 36,
+      "passed": true
+    },
+    {
+      "name": "csxy_record_roundtrip",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "baseapp_request_bytes",
+      "observed": 21,
+      "expected": 21,
+      "passed": true
+    },
+    {
+      "name": "baseapp_request_application_arguments_bytes",
+      "observed": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "name": "baseapp_token_and_attempt_decode",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "baseapp_wrong_token_rejected",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "baseapp_reply_clear_bytes",
+      "observed": 15,
+      "expected": 15,
+      "passed": true
+    },
+    {
+      "name": "baseapp_csxy_reply_wire_bytes",
+      "observed": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "name": "same_clear_reply_stock_filter_wire_bytes",
+      "observed": 24,
+      "expected": 24,
+      "passed": true
+    },
+    {
+      "name": "csxy_filter_roundtrip",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "stock_filter_roundtrip",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "stock_filter_rejects_csxy_packet_magic",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "csxy_filter_keeps_four_extra_bytes",
+      "observed": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "csxy_filter_does_not_restore_stock_packet_exactly",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    }
+  ],
+  "sources": [
+    {
+      "version": "1.9.1",
+      "path": "bigworld/src/common/login_interface.hpp",
+      "git_blob_sha1": "90d91eaf666815748f12dc16a0089eacb29149c4",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/bigworld/src/common/login_interface.hpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "bigworld/src/server/loginapp/loginapp.cpp",
+      "git_blob_sha1": "a3bde22147f9ef7b589192ec1ca6955ac5457a11",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/bigworld/src/server/loginapp/loginapp.cpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "bigworld/src/common/login_interface.cpp",
+      "git_blob_sha1": "4d4ff586eb2316b80289f84ede2c56b2fd243396",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/bigworld/src/common/login_interface.cpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "src/lib/network/public_key_cipher.cpp",
+      "git_blob_sha1": "642ec98ccec42ed128ed4bd476dd97ebd46e95b9",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/src/lib/network/public_key_cipher.cpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "src/lib/network/encryption_filter.cpp",
+      "git_blob_sha1": "732db112775cb3278986f29275f8d594d48ca9ab",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/src/lib/network/encryption_filter.cpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "src/lib/network/encryption_filter.hpp",
+      "git_blob_sha1": "b34fc517e941f739216c3f95f5602146ba19c6ad",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/src/lib/network/encryption_filter.hpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "src/lib/network/basictypes.cpp",
+      "git_blob_sha1": "46d45dd1991255be6a2968b16408d46225b857a9",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/src/lib/network/basictypes.cpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "src/lib/network/basictypes.hpp",
+      "git_blob_sha1": "d16caccffd1d0b4adddd0d58677f917a754a1d6b",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/src/lib/network/basictypes.hpp"
+    },
+    {
+      "version": "1.9.1",
+      "path": "bigworld/src/common/servconn.cpp",
+      "git_blob_sha1": "543c7af420825156635cda235d2cd29747725511",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-1.9.1/blob/master/bigworld/src/common/servconn.cpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/connection/login_interface.hpp",
+      "git_blob_sha1": "f0fd46cd4a260e68b8ec3ee60f7ef224b4141a80",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/connection/login_interface.hpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/server/loginapp/loginapp.cpp",
+      "git_blob_sha1": "57e38e1de506506c124a66cf40c962504f2ed76b",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/server/loginapp/loginapp.cpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/connection/log_on_params.cpp",
+      "git_blob_sha1": "76d0d873d80d57a39645aa85da296d46b8dacabf",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/connection/log_on_params.cpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/network/public_key_cipher.cpp",
+      "git_blob_sha1": "ae322a3c019ceecc13545db1d04a35a299b59adf",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/network/public_key_cipher.cpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/network/encryption_filter.cpp",
+      "git_blob_sha1": "624bdc0b24295e3aef257e99f340d909db411e57",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/network/encryption_filter.cpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/network/encryption_filter.hpp",
+      "git_blob_sha1": "187cbe3350ae49379f288fa576f583cc39746dd8",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/network/encryption_filter.hpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/network/basictypes.cpp",
+      "git_blob_sha1": "06596c4be913e9f936da82f791f9e77a10152866",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/network/basictypes.cpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/network/basictypes.hpp",
+      "git_blob_sha1": "b6ffe92d1274788a99e2cb39e55d198578657873",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/network/basictypes.hpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/connection/login_reply_record.hpp",
+      "git_blob_sha1": "dfab0aba3300945de3681e99e58b007078ce3008",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/connection/login_reply_record.hpp"
+    },
+    {
+      "version": "2.0.1",
+      "path": "src/lib/connection/baseapp_login_request.cpp",
+      "git_blob_sha1": "9abaf228679ca82576c15c88459eaefab46b53ac",
+      "url": "https://github.com/v2v3v4/BigWorld-Engine-2.0.1/blob/master/src/lib/connection/baseapp_login_request.cpp"
+    }
+  ],
+  "simulator_sources": [
+    {
+      "path": "server/csxy_protocol.py",
+      "sha256": "c9d7c443369e78ef2f08a7ccd84135bee64ac342de3849941464b007a0831f54"
+    },
+    {
+      "path": "server/udp_baseapp_server.py",
+      "sha256": "7d7668598abe5ae2c1f43444b9438e527ed9b5cd055cbf8aa6fdbbe87071e32b"
+    }
+  ]
+}

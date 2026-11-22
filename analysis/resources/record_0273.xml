@@ -1,0 +1,24 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <refineManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </refineManID>
+  </Properties>
+  <CellMethods>
+    <equipExtract>
+      <Exposed />
+      <Arg>ARRAY<of>ITEM_CONT_POS_UUID</of>
+      </Arg>
+    </equipExtract>
+  </CellMethods>
+  <ClientMethods>
+    <showEquipRefineDialog />
+  </ClientMethods>
+</root>

@@ -1,0 +1,25 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <landRFWawaID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </landRFWawaID>
+    <incamp>
+      <Type>BOOL</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </incamp>
+  </Properties>
+  <CellMethods>
+    <query>
+      <Arg>UINT8</Arg>
+      <Arg>MAILBOX</Arg>
+    </query>
+  </CellMethods>
+  <ClientMethods />
+</root>

@@ -1,0 +1,21 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <transportManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </transportManID>
+  </Properties>
+  <CellMethods>
+    <transport>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </transport>
+  </CellMethods>
+  <ClientMethods />
+</root>

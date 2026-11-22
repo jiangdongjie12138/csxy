@@ -1,0 +1,33 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <tierManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </tierManID>
+  </Properties>
+  <CellMethods>
+    <checkTierSyn>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>INT8</Arg>
+      <Arg>INT8</Arg>
+    </checkTierSyn>
+    <checkTierChange>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>ITEM_ID</Arg>
+      <Arg>INT8</Arg>
+    </checkTierChange>
+  </CellMethods>
+  <ClientMethods>
+    <showTierSynDialog />
+    <showTierChangeSideDialog />
+    <showTierChangeIndexDialog />
+  </ClientMethods>
+</root>

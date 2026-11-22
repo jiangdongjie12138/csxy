@@ -1,0 +1,97 @@
+<root>
+  <Implements>
+    <Interface>iBaseWithCell</Interface>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iPlaceble</Interface>
+  </Implements>
+  <Properties>
+    <aspect>
+      <Type>NPC_ASPECT</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </aspect>
+    <bornPosition>
+      <Type>POSITION_ARG</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </bornPosition>
+    <status>
+      <Type>STATUS</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </status>
+    <userID>
+      <Type>EID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </userID>
+    <userPos>
+      <Type>VECTOR3</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </userPos>
+    <openedTimer>
+      <Type>TIMER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </openedTimer>
+    <intonateTimer>
+      <Type>TIMER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </intonateTimer>
+    <usedAspectTimer>
+      <Type>TIMER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </usedAspectTimer>
+    <life>
+      <Type>INT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>1</Default>
+    </life>
+    <items>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>__import__('csxyclass').ItemList()</Default>
+    </items>
+    <ttl>
+      <Type>UINT32</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </ttl>
+    <isUsed>
+      <Type>BOOL</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </isUsed>
+  </Properties>
+  <ClientMethods>
+    <showItems>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+    </showItems>
+    <removeItem>
+      <Arg>UUID</Arg>
+    </removeItem>
+    <close />
+  </ClientMethods>
+  <CellMethods>
+    <use>
+      <Exposed />
+    </use>
+    <close>
+      <Exposed />
+    </close>
+    <pickItem>
+      <Exposed />
+      <Arg>UUID</Arg>
+    </pickItem>
+    <onPickItem>
+      <Arg>UUID</Arg>
+      <Arg>BOOL</Arg>
+    </onPickItem>
+    <pickAllItems>
+      <Exposed />
+    </pickAllItems>
+    <onCancelIntonate />
+    <onIntonateOver />
+  </CellMethods>
+</root>

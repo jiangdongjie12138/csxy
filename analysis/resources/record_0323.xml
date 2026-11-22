@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <settings>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>{}</Default>
+      <Persistent>true</Persistent>
+    </settings>
+  </Properties>
+  <BaseMethods>
+    <setGlobalItemDrop>
+      <Arg>DATA_ID</Arg>
+      <Arg>BOOL</Arg>
+    </setGlobalItemDrop>
+  </BaseMethods>
+</root>

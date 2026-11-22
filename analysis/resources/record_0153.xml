@@ -1,0 +1,25 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <peachMonsterID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </peachMonsterID>
+    <status>
+      <Type>STATUS</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </status>
+    <peachBase>
+      <Type>MAILBOX</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </peachBase>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

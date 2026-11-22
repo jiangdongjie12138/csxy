@@ -1,0 +1,31 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <crontabs>
+      <Type>ARRAY<of>CRONTAB_INFO</of>
+      </Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+    </crontabs>
+    <timerID>
+      <Type>TIMER_ID</Type>
+      <Flags>BASE</Flags>
+      <Default>0</Default>
+    </timerID>
+  </Properties>
+  <BaseMethods>
+    <registerCrontab>
+      <Arg>STRING</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </registerCrontab>
+    <unregisterCrontab>
+      <Arg>UINT32</Arg>
+      <Arg>STRING</Arg>
+    </unregisterCrontab>
+  </BaseMethods>
+</root>

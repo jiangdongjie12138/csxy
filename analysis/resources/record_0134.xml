@@ -1,0 +1,40 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <lightHouseID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </lightHouseID>
+    <oil>
+      <Type>UINT16</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </oil>
+    <glitterEndtime>
+      <Type>LONGTIME</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </glitterEndtime>
+    <glitterTimer>
+      <Type>TIMER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Persistent>false</Persistent>
+    </glitterTimer>
+  </Properties>
+  <CellMethods>
+    <changeByOil>
+      <Arg>UINT16</Arg>
+    </changeByOil>
+    <changeByOilGM>
+      <Arg>UINT16</Arg>
+    </changeByOilGM>
+    <initNpcProp>
+      <Arg>PYTHON</Arg>
+    </initNpcProp>
+    <changeLightModel />
+  </CellMethods>
+  <ClientMethods />
+</root>

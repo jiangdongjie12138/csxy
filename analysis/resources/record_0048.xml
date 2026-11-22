@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iBase</Interface>
+  </Implements>
+  <Properties>
+    <spaceCell>
+      <Type>MAILBOX</Type>
+      <Flags>BASE</Flags>
+      <Default>None</Default>
+    </spaceCell>
+  </Properties>
+  <CellMethods />
+  <BaseMethods>
+    <semiDestroy />
+    <onGetSpaceCell>
+      <Arg>SPACE_NO</Arg>
+      <Arg>MAILBOX</Arg>
+    </onGetSpaceCell>
+  </BaseMethods>
+</root>

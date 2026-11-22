@@ -1,0 +1,38 @@
+<root>
+  <Properties>
+    <archive>
+      <Type>BOOL</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </archive>
+    <dbID>
+      <Type>DBID</Type>
+      <Flags>BASE</Flags>
+      <Default>0</Default>
+    </dbID>
+    <creator>
+      <Type>KEY_NAME</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </creator>
+  </Properties>
+  <CellMethods>
+    <remove>
+      <Arg>MAILBOX</Arg>
+      <Arg>KEY_NAME</Arg>
+    </remove>
+    <update />
+  </CellMethods>
+  <BaseMethods>
+    <save>
+      <Arg>PYTHON</Arg>
+    </save>
+    <update>
+      <Arg>PYTHON</Arg>
+    </update>
+    <remove>
+      <Arg>PYTHON</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>KEY_NAME</Arg>
+    </remove>
+  </BaseMethods>
+</root>

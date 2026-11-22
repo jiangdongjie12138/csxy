@@ -1,0 +1,30 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanBillboardID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanBillboardID>
+  </Properties>
+  <CellMethods>
+    <postAnnouncement>
+      <Exposed />
+      <Arg>STRING</Arg>
+      <Arg>STRING</Arg>
+    </postAnnouncement>
+    <deleteAnnouncement>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </deleteAnnouncement>
+  </CellMethods>
+  <ClientMethods>
+    <showPostAnnouncementDialog>
+      <Arg>BOOL</Arg>
+    </showPostAnnouncementDialog>
+  </ClientMethods>
+</root>

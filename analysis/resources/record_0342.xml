@@ -1,0 +1,18 @@
+<root>
+  <Properties>
+    <school>
+      <Type>SCHOOL</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>1</Default>
+    </school>
+    <sex>
+      <Type>SEX</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>1</Default>
+    </sex>
+    <size>
+      <Type>FLOAT</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </size>
+  </Properties>
+</root>

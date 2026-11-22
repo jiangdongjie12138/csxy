@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <mergeRewardManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </mergeRewardManID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

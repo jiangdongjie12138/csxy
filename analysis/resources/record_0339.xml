@@ -1,0 +1,16 @@
+<root>
+  <Properties>
+    <modelPath>
+      <Type>STRING</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </modelPath>
+    <ypr>
+      <Type>DIRECTION</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </ypr>
+    <bgLoad>
+      <Type>BOOL</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </bgLoad>
+  </Properties>
+</root>

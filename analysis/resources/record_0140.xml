@@ -1,0 +1,100 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <broadcastTimer>
+      <Type>TIMER_ID</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+    </broadcastTimer>
+    <juniorKejuMans>
+      <Type>ARRAY<of>MAILBOX</of>
+      </Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+    </juniorKejuMans>
+    <middleKejuMans>
+      <Type>ARRAY<of>MAILBOX</of>
+      </Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+    </middleKejuMans>
+    <seniorKejuMans>
+      <Type>ARRAY<of>MAILBOX</of>
+      </Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+    </seniorKejuMans>
+    <kejuClerk>
+      <Type>MAILBOX</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+    </kejuClerk>
+    <juniorPass>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>[]</Default>
+    </juniorPass>
+    <middlePass>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>[]</Default>
+    </middlePass>
+    <seniorPass>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>[]</Default>
+    </seniorPass>
+  </Properties>
+  <BaseMethods>
+    <preKejuExam />
+    <onBeginJuniorExam />
+    <onEndJuniorExam />
+    <onBeginMiddleExam />
+    <onEndMiddleExam />
+    <onBeginSeniorExam />
+    <onEndSeniorExam />
+    <rewardSeniorExam />
+    <saveJuniorExam>
+      <Arg>DBID</Arg>
+    </saveJuniorExam>
+    <saveMiddleExam>
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>FLOATTIME</Arg>
+    </saveMiddleExam>
+    <saveSeniorExam>
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>FLOATTIME</Arg>
+    </saveSeniorExam>
+    <queryMiddleExamRst>
+      <Arg>EID</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+    </queryMiddleExamRst>
+    <checkBeginJuniorKeju>
+      <Arg>EID</Arg>
+      <Arg>NPC_ID</Arg>
+      <Arg>DBID</Arg>
+      <Arg>MAILBOX</Arg>
+    </checkBeginJuniorKeju>
+    <checkBeginMiddleKeju>
+      <Arg>EID</Arg>
+      <Arg>NPC_ID</Arg>
+      <Arg>DBID</Arg>
+      <Arg>MAILBOX</Arg>
+    </checkBeginMiddleKeju>
+    <checkBeginSeniorKeju>
+      <Arg>EID</Arg>
+      <Arg>NPC_ID</Arg>
+      <Arg>DBID</Arg>
+      <Arg>MAILBOX</Arg>
+    </checkBeginSeniorKeju>
+  </BaseMethods>
+</root>

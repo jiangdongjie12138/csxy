@@ -1,0 +1,42 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <saintManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </saintManID>
+  </Properties>
+  <CellMethods>
+    <showSynthesisDialog>
+      <Arg>EID</Arg>
+    </showSynthesisDialog>
+    <synthesisSaint>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </synthesisSaint>
+    <reinforceSynthesisSaint>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </reinforceSynthesisSaint>
+    <showReinforceSynthesisDialog>
+      <Arg>EID</Arg>
+      <Arg>ITEM_ID</Arg>
+      <Arg>UINT8</Arg>
+    </showReinforceSynthesisDialog>
+    <showReinforceSynthesisTips>
+      <Arg>EID</Arg>
+      <Arg>ITEM_ID</Arg>
+      <Arg>UINT8</Arg>
+    </showReinforceSynthesisTips>
+  </CellMethods>
+  <ClientMethods>
+    <showSynthesisSaintDialog />
+  </ClientMethods>
+</root>

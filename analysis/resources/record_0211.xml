@@ -1,0 +1,16 @@
+<root>
+  <Properties>
+    <modelFile>
+      <Editable>true</Editable>
+      <Type>STRING</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>effect/scene/detail/bagua_bsp_001_2032.model</Default>
+    </modelFile>
+    <solution>
+      <Editable>true</Editable>
+      <Type>INT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>100</Default>
+    </solution>
+  </Properties>
+</root>

@@ -1,0 +1,6 @@
+<root>
+  <BaseMethods>
+    <doNext />
+    <doLast />
+  </BaseMethods>
+</root>

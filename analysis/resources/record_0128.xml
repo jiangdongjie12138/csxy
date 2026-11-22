@@ -1,0 +1,25 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+  </Implements>
+  <Properties>
+    <ownerBaseBox>
+      <Type>MAILBOX</Type>
+      <Flags>BASE</Flags>
+    </ownerBaseBox>
+  </Properties>
+  <BaseMethods>
+    <saveBattle>
+      <Arg>MAILBOX</Arg>
+    </saveBattle>
+    <launchBattle>
+      <Arg>MAILBOX</Arg>
+      <Arg>CAMP</Arg>
+      <Arg>CUSTOM_BATTLE_ID</Arg>
+      <Arg>UINT8</Arg>
+    </launchBattle>
+    <stopBattle>
+      <Arg>PYTHON</Arg>
+    </stopBattle>
+  </BaseMethods>
+</root>

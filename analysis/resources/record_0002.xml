@@ -1,0 +1,22 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <landRFExchangerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </landRFExchangerID>
+  </Properties>
+  <CellMethods>
+    <updateRFScore>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+    </updateRFScore>
+  </CellMethods>
+  <ClientMethods />
+</root>

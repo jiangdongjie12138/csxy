@@ -1,0 +1,73 @@
+<root>
+  <Implements>
+    <Interface>iBase</Interface>
+    <Interface>iCell</Interface>
+  </Implements>
+  <Properties>
+    <spaceid>
+      <Type>SPACE_ID</Type>
+      <Flags>BASE</Flags>
+    </spaceid>
+    <spaceno>
+      <Type>SPACE_NO</Type>
+      <Flags>BASE</Flags>
+    </spaceno>
+    <map>
+      <Type>PATH</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </map>
+    <initialTimeOfDay>
+      <Type>LONGTIME</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </initialTimeOfDay>
+    <gameSecondsPerSecond>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </gameSecondsPerSecond>
+    <weatherTimer>
+      <Type>TIMER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </weatherTimer>
+    <timerData>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>{}</Default>
+    </timerData>
+    <owner>
+      <Type>MAILBOX</Type>
+      <Flags>BASE</Flags>
+    </owner>
+  </Properties>
+  <BaseMethods>
+    <initCellField>
+      <Arg>SPACE_ID</Arg>
+    </initCellField>
+    <fastConstruct />
+    <entireConstruct>
+      <Arg>SPACE_ID</Arg>
+    </entireConstruct>
+    <createSpaceMarkerCell>
+      <Arg>MAILBOX</Arg>
+    </createSpaceMarkerCell>
+    <onScheduleWeather />
+  </BaseMethods>
+  <CellMethods>
+    <destroyMySpace />
+    <createCellLocally>
+      <Arg>STRING</Arg>
+      <Arg>POSITION_ARG</Arg>
+      <Arg>DIRECTION_ARG</Arg>
+      <Arg>PYTHON</Arg>
+    </createCellLocally>
+    <beginWeather>
+      <Arg>STRING</Arg>
+      <Arg>LONGTIME</Arg>
+    </beginWeather>
+    <createSpaceTime />
+    <changeSpaceTime>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+    </changeSpaceTime>
+  </CellMethods>
+</root>

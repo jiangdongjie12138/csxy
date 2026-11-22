@@ -1,0 +1,85 @@
+<root>
+  <Implements>
+    <Interface>iDynSpaceManager</Interface>
+  </Implements>
+  <Properties>
+    <footballSpace>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </footballSpace>
+    <avatarScore>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>{}</Default>
+    </avatarScore>
+    <winID>
+      <Type>ARRAY<of>DBID</of>
+      </Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+    </winID>
+    <winLeader>
+      <Type>ARRAY<of>DBID</of>
+      </Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+    </winLeader>
+    <loseLeader>
+      <Type>ARRAY<of>DBID</of>
+      </Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+    </loseLeader>
+  </Properties>
+  <BaseMethods>
+    <prepareMatch />
+    <beginMatch />
+    <prepareCloseMatch />
+    <closeMatch />
+    <afterCloseMatch />
+    <avatarEnterSpace>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>NPC_ID</Arg>
+    </avatarEnterSpace>
+    <inviteFight>
+      <Arg>MAILBOX</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>STRING</Arg>
+    </inviteFight>
+    <stopBattle>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>SPACE_NO</Arg>
+      <Arg>FOOTBALL_SCORE</Arg>
+      <Arg>UINT8</Arg>
+    </stopBattle>
+    <avatarLeaveSpace>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+    </avatarLeaveSpace>
+    <leaderReady>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>EID</Arg>
+    </leaderReady>
+    <leaderCancelReady>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>EID</Arg>
+    </leaderCancelReady>
+    <newRound />
+    <stopBiwu>
+      <Arg>DBID</Arg>
+      <Arg>UINT8</Arg>
+    </stopBiwu>
+    <checkVs>
+      <Arg>MAILBOX</Arg>
+      <Arg>EID</Arg>
+    </checkVs>
+  </BaseMethods>
+</root>

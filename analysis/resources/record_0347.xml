@@ -1,0 +1,99 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <bankerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </bankerID>
+  </Properties>
+  <CellMethods>
+    <sortBankItems>
+      <Exposed />
+    </sortBankItems>
+    <expandBank>
+      <Exposed />
+    </expandBank>
+    <depositCash>
+      <Exposed />
+      <Arg>CASH</Arg>
+    </depositCash>
+    <withdrawCash>
+      <Exposed />
+      <Arg>CASH</Arg>
+    </withdrawCash>
+    <withdrawReservedCash>
+      <Exposed />
+      <Arg>CASH</Arg>
+    </withdrawReservedCash>
+    <depositItem>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>AMOUNT</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </depositItem>
+    <withdrawItem>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>AMOUNT</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </withdrawItem>
+    <depositItemAutoInsertWhenOpen>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>PAGE</Arg>
+    </depositItemAutoInsertWhenOpen>
+    <depositItemAutoInsert>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </depositItemAutoInsert>
+    <withdrawItemAutoInsert>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </withdrawItemAutoInsert>
+    <withdrawItemAutoInsertWhenOpen>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>PAGE</Arg>
+    </withdrawItemAutoInsertWhenOpen>
+    <exchangeBankItem>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>AMOUNT</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </exchangeBankItem>
+    <exchangeBankEqu>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>PART</Arg>
+    </exchangeBankEqu>
+    <discardBankItem>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>AMOUNT</Arg>
+    </discardBankItem>
+    <lockBank>
+      <Exposed />
+    </lockBank>
+    <unlockBank>
+      <Exposed />
+    </unlockBank>
+  </CellMethods>
+  <ClientMethods />
+</root>

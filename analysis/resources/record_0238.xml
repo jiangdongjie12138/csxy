@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iClanMerchantMan</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanMerchantQizhenID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanMerchantQizhenID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods>
+    <show_qizhen_bid>
+      <Arg>UUID</Arg>
+    </show_qizhen_bid>
+  </ClientMethods>
+</root>

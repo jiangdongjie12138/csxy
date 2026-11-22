@@ -1,0 +1,51 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanYanwuTangzhuID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanYanwuTangzhuID>
+  </Properties>
+  <CellMethods>
+    <learnSecondSpell>
+      <Exposed />
+      <Arg>SPELL_ID</Arg>
+      <Arg>BOOL</Arg>
+    </learnSecondSpell>
+    <researchSecondSpell>
+      <Exposed />
+      <Arg>SPELL_ID</Arg>
+    </researchSecondSpell>
+    <cancelResearchSecondSpell>
+      <Exposed />
+    </cancelResearchSecondSpell>
+    <setCurrSecondSpells>
+      <Exposed />
+      <Arg>ARRAY<of>SPELL_ID</of>
+      </Arg>
+    </setCurrSecondSpells>
+  </CellMethods>
+  <ClientMethods>
+    <showLearnSecondSpellDialog>
+      <Arg>ARRAY<of>SPELL_ID</of>
+      </Arg>
+    </showLearnSecondSpellDialog>
+    <showResearchSecondSpellDialog>
+      <Arg>CLAN_CURR_RESEARCHING_INFO</Arg>
+      <Arg>ARRAY<of>SPELL_ID</of>
+      </Arg>
+    </showResearchSecondSpellDialog>
+    <showSetCurrSecondSpellsDialog>
+      <Arg>LEVEL</Arg>
+      <Arg>ARRAY<of>SPELL_ID</of>
+      </Arg>
+      <Arg>ARRAY<of>SPELL_ID</of>
+      </Arg>
+    </showSetCurrSecondSpellsDialog>
+  </ClientMethods>
+</root>

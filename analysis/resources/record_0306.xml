@@ -1,0 +1,38 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <loadingPriorStub>
+      <Type>STRING</Type>
+      <Flags>BASE</Flags>
+    </loadingPriorStub>
+    <entitiesToLoad>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>[]</Default>
+    </entitiesToLoad>
+    <watchersToLoad>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>[]</Default>
+    </watchersToLoad>
+    <exWatchersToLoad>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>[]</Default>
+    </exWatchersToLoad>
+    <renameList>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>{}</Default>
+    </renameList>
+    <renameData>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>[]</Default>
+    </renameData>
+  </Properties>
+  <BaseMethods />
+</root>

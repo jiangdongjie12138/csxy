@@ -1,0 +1,20 @@
+<root>
+  <Properties>
+    <leaderID>
+      <Type>EID</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </leaderID>
+    <roleName>
+      <Type>KEY_NAME</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </roleName>
+    <aspect>
+      <Type>NPC_ASPECT</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </aspect>
+    <dataID>
+      <Type>EID</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </dataID>
+  </Properties>
+</root>

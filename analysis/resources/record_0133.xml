@@ -1,0 +1,24 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <xiulianManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </xiulianManID>
+  </Properties>
+  <CellMethods>
+    <onGetXiulianSkipCount>
+      <Arg>EID</Arg>
+      <Arg>UINT8</Arg>
+    </onGetXiulianSkipCount>
+    <onAbandonXiulianQuestCheck>
+      <Arg>EID</Arg>
+    </onAbandonXiulianQuestCheck>
+  </CellMethods>
+  <ClientMethods />
+</root>

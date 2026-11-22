@@ -1,0 +1,24 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <hysForgeID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </hysForgeID>
+  </Properties>
+  <CellMethods>
+    <hysForgeEquip>
+      <Exposed />
+      <Arg>ARRAY<of>ITEM_CONT_POS_UUID</of>
+      </Arg>
+    </hysForgeEquip>
+  </CellMethods>
+  <ClientMethods>
+    <showHysForgeDlg />
+  </ClientMethods>
+</root>

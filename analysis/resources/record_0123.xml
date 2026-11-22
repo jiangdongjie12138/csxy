@@ -1,0 +1,35 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <mailItemRedeemManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </mailItemRedeemManID>
+  </Properties>
+  <CellMethods>
+    <query>
+      <Exposed />
+      <Arg>PAGE</Arg>
+    </query>
+    <redeemItem>
+      <Exposed />
+      <Arg>DBID</Arg>
+    </redeemItem>
+  </CellMethods>
+  <ClientMethods>
+    <showItems>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>ARRAY<of>MAIL_REDEEM_ITEM</of>
+      </Arg>
+    </showItems>
+    <removeItem>
+      <Arg>DBID</Arg>
+    </removeItem>
+  </ClientMethods>
+</root>

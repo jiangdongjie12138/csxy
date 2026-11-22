@@ -1,0 +1,31 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <transformerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </transformerID>
+    <state>
+      <Type>UINT8</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </state>
+    <timer>
+      <Type>TIMER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </timer>
+  </Properties>
+  <CellMethods>
+    <useItem>
+      <Arg>EID</Arg>
+      <Arg>ITEM_ID</Arg>
+    </useItem>
+  </CellMethods>
+  <ClientMethods />
+</root>

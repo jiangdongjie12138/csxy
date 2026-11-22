@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <kejuClerkID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </kejuClerkID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

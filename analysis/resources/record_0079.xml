@@ -1,0 +1,25 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <wufuBoxID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </wufuBoxID>
+  </Properties>
+  <ClientMethods>
+    <showWufuzhenyan />
+  </ClientMethods>
+  <CellMethods>
+    <checkWufuzhenyan>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </checkWufuzhenyan>
+  </CellMethods>
+</root>

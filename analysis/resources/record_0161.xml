@@ -1,0 +1,18 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <shopManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </shopManagerID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods>
+    <showShopDialog />
+  </ClientMethods>
+</root>

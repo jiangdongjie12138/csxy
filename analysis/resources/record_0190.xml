@@ -1,0 +1,21 @@
+<root>
+  <Volatile>
+    <position />
+    <yaw />
+  </Volatile>
+  <Implements>
+    <Interface>iBox</Interface>
+  </Implements>
+  <Properties>
+    <boxID>
+      <Type>UINT32</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </boxID>
+  </Properties>
+  <CellMethods>
+    <onUseBoxCheck>
+      <Arg>EID</Arg>
+      <Arg>BOOL</Arg>
+    </onUseBoxCheck>
+  </CellMethods>
+</root>

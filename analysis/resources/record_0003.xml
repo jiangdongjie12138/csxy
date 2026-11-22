@@ -1,0 +1,46 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <teachManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </teachManagerID>
+  </Properties>
+  <CellMethods>
+    <showAskRemoveTeach>
+      <Arg>EID</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>UUID</Arg>
+    </showAskRemoveTeach>
+    <showRemoveTeacherDlg>
+      <Arg>EID</Arg>
+      <Arg>DBID</Arg>
+    </showRemoveTeacherDlg>
+    <showRemoveStudentDlg>
+      <Arg>EID</Arg>
+      <Arg>PYTHON</Arg>
+    </showRemoveStudentDlg>
+    <graduateBlessDlg>
+      <Arg>EID</Arg>
+      <Arg>DBID</Arg>
+      <Arg>UINT8</Arg>
+    </graduateBlessDlg>
+    <graduateBless>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>STRING</Arg>
+    </graduateBless>
+  </CellMethods>
+  <ClientMethods>
+    <graduateBlessDlg>
+      <Arg>DBID</Arg>
+      <Arg>UINT8</Arg>
+    </graduateBlessDlg>
+  </ClientMethods>
+</root>

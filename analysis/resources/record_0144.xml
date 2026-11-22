@@ -1,0 +1,23 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <episplitterID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </episplitterID>
+  </Properties>
+  <CellMethods>
+    <episplit>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+    </episplit>
+  </CellMethods>
+  <ClientMethods>
+    <showEpisplitDlg />
+  </ClientMethods>
+</root>

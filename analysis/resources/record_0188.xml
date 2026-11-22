@@ -1,0 +1,13 @@
+<root>
+  <Implements>
+    <Interface>iGlobalWar</Interface>
+  </Implements>
+  <Properties>
+    <gates>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>[]</Default>
+    </gates>
+  </Properties>
+  <BaseMethods />
+</root>

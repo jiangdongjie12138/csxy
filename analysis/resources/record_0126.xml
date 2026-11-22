@@ -1,0 +1,28 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <spellMasterID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </spellMasterID>
+  </Properties>
+  <CellMethods>
+    <learnSchoolSkill>
+      <Exposed />
+      <Arg>SKILL_ID</Arg>
+    </learnSchoolSkill>
+    <learnRoleSpell>
+      <Exposed />
+      <Arg>SPELL_ID</Arg>
+    </learnRoleSpell>
+  </CellMethods>
+  <ClientMethods>
+    <showLearnSchoolSkillDialog />
+    <showLearnRoleSpellDlg />
+  </ClientMethods>
+</root>

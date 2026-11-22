@@ -1,0 +1,21 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <totalVirtueTop>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>{}</Default>
+    </totalVirtueTop>
+  </Properties>
+  <BaseMethods>
+    <onRewardTVirtueTop />
+    <addTVirtueTop>
+      <Arg>DBID</Arg>
+      <Arg>UINT32</Arg>
+    </addTVirtueTop>
+  </BaseMethods>
+</root>

@@ -1,0 +1,31 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <bakerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </bakerID>
+  </Properties>
+  <CellMethods>
+    <showMakeCake>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>ITEM_ID</Arg>
+    </showMakeCake>
+    <makeCake>
+      <Exposed />
+      <Arg>ITEM_ID</Arg>
+    </makeCake>
+  </CellMethods>
+  <ClientMethods>
+    <showMakeCakeDlg>
+      <Arg>UINT16</Arg>
+      <Arg>ITEM_ID</Arg>
+    </showMakeCakeDlg>
+  </ClientMethods>
+</root>

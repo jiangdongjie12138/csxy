@@ -1,0 +1,30 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <moonLuzaoID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </moonLuzaoID>
+  </Properties>
+  <CellMethods>
+    <showLuzaoDlg>
+      <Arg>EID</Arg>
+    </showLuzaoDlg>
+    <setUsableNpc>
+      <Arg>EID</Arg>
+      <Arg>NPC_ID</Arg>
+      <Arg>BOOL</Arg>
+    </setUsableNpc>
+  </CellMethods>
+  <ClientMethods>
+    <setUsableNpc>
+      <Arg>NPC_ID</Arg>
+      <Arg>BOOL</Arg>
+    </setUsableNpc>
+  </ClientMethods>
+</root>

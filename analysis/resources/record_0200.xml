@@ -1,0 +1,71 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanBaihuTangzhuID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanBaihuTangzhuID>
+  </Properties>
+  <CellMethods>
+    <addReward>
+      <Exposed />
+      <Arg>UINT8</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </addReward>
+    <delReward>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </delReward>
+    <updateRewardList>
+      <Exposed />
+    </updateRewardList>
+    <updateRewardDetail>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </updateRewardDetail>
+    <tonghuiOfferNew>
+      <Exposed />
+      <Arg>CASH</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+    </tonghuiOfferNew>
+    <tonghuiOfferDraw>
+      <Exposed />
+      <Arg>DBID</Arg>
+    </tonghuiOfferDraw>
+    <tonghuiOfferReward>
+      <Exposed />
+    </tonghuiOfferReward>
+    <tonghuiOfferList>
+      <Exposed />
+    </tonghuiOfferList>
+  </CellMethods>
+  <ClientMethods>
+    <update_reward_list>
+      <Arg>PYTHON</Arg>
+    </update_reward_list>
+    <update_reward_detail>
+      <Arg>INT8</Arg>
+      <Arg>ITEM_INFO</Arg>
+    </update_reward_detail>
+    <delete_reward_item>
+      <Arg>INT8</Arg>
+    </delete_reward_item>
+    <update_reward_msg>
+      <Arg>ARRAY<of>STRING</of>
+      </Arg>
+    </update_reward_msg>
+    <show_tonghui_dialog />
+    <update_tonghui_list>
+      <Arg>ARRAY<of>TONGHUI_OFFER</of>
+      </Arg>
+    </update_tonghui_list>
+  </ClientMethods>
+</root>

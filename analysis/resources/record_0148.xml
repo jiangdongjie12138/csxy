@@ -1,0 +1,43 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <weddingAvatarID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </weddingAvatarID>
+    <roleNameEx>
+      <Type>KEY_NAME</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </roleNameEx>
+    <titleEx>
+      <Type>PET_NAME</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </titleEx>
+    <physique>
+      <Type>PHYSIQUE_INFO</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </physique>
+    <aspect>
+      <Type>ASPECT_INFO</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </aspect>
+    <size>
+      <Type>FLOAT</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>2</Default>
+    </size>
+    <saluteTime>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </saluteTime>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

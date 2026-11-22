@@ -1,0 +1,30 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <switchs>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </switchs>
+  </Properties>
+  <BaseMethods>
+    <registerSwitch>
+      <Arg>SPACE_NO</Arg>
+      <Arg>SWITCH_ID</Arg>
+      <Arg>MAILBOX</Arg>
+    </registerSwitch>
+    <openSwitch>
+      <Arg>SPACE_NO</Arg>
+      <Arg>SWITCH_ID</Arg>
+    </openSwitch>
+    <setSwitchState>
+      <Arg>SPACE_NO</Arg>
+      <Arg>SWITCH_ID</Arg>
+      <Arg>UINT8</Arg>
+    </setSwitchState>
+  </BaseMethods>
+</root>

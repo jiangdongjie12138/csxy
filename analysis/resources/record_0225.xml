@@ -1,0 +1,29 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <equipUpgraderID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </equipUpgraderID>
+  </Properties>
+  <CellMethods>
+    <equipUpgrade>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+    </equipUpgrade>
+    <equipInherit>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </equipInherit>
+  </CellMethods>
+  <ClientMethods>
+    <showEquipUpgradeDialog />
+    <showEquipInheritDialog />
+  </ClientMethods>
+</root>

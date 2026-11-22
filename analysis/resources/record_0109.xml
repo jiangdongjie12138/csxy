@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanFubenOpenerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanFubenOpenerID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

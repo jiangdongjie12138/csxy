@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <allGsRewardManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </allGsRewardManID>
+  </Properties>
+  <CellMethods>
+    <getAllGsUrl>
+      <Arg>EID</Arg>
+    </getAllGsUrl>
+  </CellMethods>
+  <ClientMethods />
+</root>

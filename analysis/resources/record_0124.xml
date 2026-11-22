@@ -1,0 +1,35 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+  </Implements>
+  <Properties>
+    <switchID>
+      <Type>UINT32</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </switchID>
+    <status>
+      <Type>STATUS</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>__import__('const').SWITCH_STATE_CLOSED</Default>
+    </status>
+  </Properties>
+  <CellMethods>
+    <use>
+      <Exposed />
+    </use>
+    <useItem>
+      <Arg>EID</Arg>
+      <Arg>ITEM_ID</Arg>
+    </useItem>
+    <onIntonateOver>
+      <Arg>EID</Arg>
+    </onIntonateOver>
+    <onUseSwitchCheck>
+      <Arg>EID</Arg>
+      <Arg>BOOL</Arg>
+    </onUseSwitchCheck>
+    <open />
+  </CellMethods>
+  <ClientMethods />
+</root>

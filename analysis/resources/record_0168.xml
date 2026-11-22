@@ -1,0 +1,46 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <redleafFlowerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </redleafFlowerID>
+    <growCnt>
+      <Type>INT8</Type>
+      <Flags>CELL_PUBLIC</Flags>
+      <Default>0</Default>
+    </growCnt>
+    <paraList>
+      <Type>ARRAY<of>EID</of>
+      </Type>
+      <Flags>CELL_PUBLIC</Flags>
+    </paraList>
+    <deathTimer>
+      <Type>TIMER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </deathTimer>
+    <playerData>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </playerData>
+    <uuid>
+      <Type>UUID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </uuid>
+  </Properties>
+  <CellMethods>
+    <addPara>
+      <Arg>EID</Arg>
+    </addPara>
+    <growPara>
+      <Arg>EID</Arg>
+      <Arg>INT8</Arg>
+    </growPara>
+  </CellMethods>
+  <ClientMethods />
+</root>

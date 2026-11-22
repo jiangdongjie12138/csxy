@@ -1,0 +1,24 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <equipStufferID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </equipStufferID>
+  </Properties>
+  <CellMethods>
+    <synStrengthStuff>
+      <Exposed />
+      <Arg>ITEM_ID</Arg>
+      <Arg>UINT32</Arg>
+    </synStrengthStuff>
+  </CellMethods>
+  <ClientMethods>
+    <showSynStrengthStuffDlg />
+  </ClientMethods>
+</root>

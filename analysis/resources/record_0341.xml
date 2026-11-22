@@ -1,0 +1,18 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+    <Interface>iPlaceble</Interface>
+  </Implements>
+  <Properties>
+    <spanTrapID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </spanTrapID>
+    <aspect>
+      <Type>NPC_ASPECT</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </aspect>
+  </Properties>
+  <BaseMethods />
+</root>

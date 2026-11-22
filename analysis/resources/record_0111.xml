@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <fubenTrapID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </fubenTrapID>
+    <trapTime>
+      <Type>UINT16</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </trapTime>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <ClanWarManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </ClanWarManID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

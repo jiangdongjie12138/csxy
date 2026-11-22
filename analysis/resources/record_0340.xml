@@ -1,0 +1,89 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <zumaBallID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </zumaBallID>
+    <targetMark>
+      <Type>UINT8</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </targetMark>
+    <orderID>
+      <Type>UINT16</Type>
+      <Flags>CELL_PUBLIC</Flags>
+      <Default>0</Default>
+    </orderID>
+    <eventID>
+      <Type>UINT16</Type>
+      <Flags>CELL_PUBLIC</Flags>
+      <Default>0</Default>
+    </eventID>
+    <nextNode>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </nextNode>
+    <isForward>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>1</Default>
+    </isForward>
+    <isFront>
+      <Type>BOOL</Type>
+      <Flags>CELL_PUBLIC</Flags>
+    </isFront>
+    <isBack>
+      <Type>BOOL</Type>
+      <Flags>CELL_PUBLIC</Flags>
+    </isBack>
+    <refreshing>
+      <Type>BOOL</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </refreshing>
+    <zumaState>
+      <Type>UINT8</Type>
+      <Flags>CELL_PUBLIC</Flags>
+    </zumaState>
+    <preBall>
+      <Type>EID</Type>
+      <Flags>CELL_PUBLIC</Flags>
+      <Default>0</Default>
+    </preBall>
+  </Properties>
+  <CellMethods>
+    <setFront>
+      <Arg>UINT8</Arg>
+    </setFront>
+    <setBack>
+      <Arg>UINT8</Arg>
+    </setBack>
+    <onStop />
+    <onGo />
+    <onThrow>
+      <Arg>UINT8</Arg>
+    </onThrow>
+    <onBlowUp />
+    <setTargetMark>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </setTargetMark>
+    <setPreBall>
+      <Arg>EID</Arg>
+    </setPreBall>
+  </CellMethods>
+  <BaseMethods>
+    <onUseThrowItemOnTarget>
+      <Arg>ITEM_ID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>MAILBOX</Arg>
+    </onUseThrowItemOnTarget>
+  </BaseMethods>
+  <ClientMethods />
+</root>

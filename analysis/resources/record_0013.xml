@@ -1,0 +1,16 @@
+<root>
+  <Properties>
+    <scriptID>
+      <Editable>true</Editable>
+      <Type>UINT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>1</Default>
+    </scriptID>
+    <viewRange>
+      <Editable>true</Editable>
+      <Type>UINT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>75</Default>
+    </viewRange>
+  </Properties>
+</root>

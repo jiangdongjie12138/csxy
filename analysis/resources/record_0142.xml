@@ -1,0 +1,31 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <pkRecords>
+      <Type>PRISON_RECORD</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>
+        <records>{}</records>
+      </Default>
+    </pkRecords>
+  </Properties>
+  <BaseMethods>
+    <addRecord>
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>CRIME_ID</Arg>
+    </addRecord>
+    <removeRecord>
+      <Arg>DBID</Arg>
+    </removeRecord>
+    <setOnline>
+      <Arg>DBID</Arg>
+      <Arg>CRIME_ID</Arg>
+      <Arg>BOOL</Arg>
+    </setOnline>
+  </BaseMethods>
+</root>

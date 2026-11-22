@@ -1,0 +1,43 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <weddingEmceeID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </weddingEmceeID>
+    <names>
+      <Type>ARRAY<of>KEY_NAME</of>
+      </Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </names>
+    <saluteTime>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </saluteTime>
+  </Properties>
+  <CellMethods>
+    <playSpaceEffect>
+      <Exposed />
+      <Arg>UINT32</Arg>
+    </playSpaceEffect>
+  </CellMethods>
+  <ClientMethods>
+    <saySalute>
+      <Arg>STRING</Arg>
+    </saySalute>
+    <showUpgradeSpace>
+      <Arg>ARRAY<of>KEY_NAME</of>
+      </Arg>
+      <Arg>ARRAY<of>MARRYPRESENT_TIME</of>
+      </Arg>
+      <Arg>ARRAY<of>MARRYPRESENT_VAL</of>
+      </Arg>
+    </showUpgradeSpace>
+  </ClientMethods>
+</root>

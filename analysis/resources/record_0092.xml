@@ -1,0 +1,10 @@
+<root>
+  <Properties>
+    <timerData>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </timerData>
+  </Properties>
+</root>

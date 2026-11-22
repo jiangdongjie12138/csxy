@@ -1,0 +1,69 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <weddingSedanID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </weddingSedanID>
+    <roleNameEx>
+      <Type>KEY_NAME</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </roleNameEx>
+    <aspectHusband>
+      <Type>ASPECT_INFO</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </aspectHusband>
+    <physiqueHusband>
+      <Type>PHYSIQUE_INFO</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </physiqueHusband>
+    <nameHusband>
+      <Type>KEY_NAME</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </nameHusband>
+    <aspectWife>
+      <Type>ASPECT_INFO</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </aspectWife>
+    <physiqueWife>
+      <Type>PHYSIQUE_INFO</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </physiqueWife>
+    <nameWife>
+      <Type>KEY_NAME</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </nameWife>
+    <paradeLevel>
+      <Type>UINT8</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </paradeLevel>
+    <currNode>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>1</Default>
+    </currNode>
+    <pinAvatar>
+      <Type>ARRAY<of>MAILBOX</of>
+      </Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </pinAvatar>
+  </Properties>
+  <CellMethods>
+    <dispatchHappyBag />
+    <repinAvatar>
+      <Exposed />
+    </repinAvatar>
+  </CellMethods>
+  <ClientMethods>
+    <clearUpData />
+    <sedanSay>
+      <Arg>STRING</Arg>
+    </sedanSay>
+  </ClientMethods>
+</root>

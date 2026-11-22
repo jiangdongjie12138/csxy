@@ -1,0 +1,44 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <jiebaiManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </jiebaiManID>
+  </Properties>
+  <CellMethods>
+    <showAskApplyJiebai>
+      <Arg>EID</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>UUID</Arg>
+      <Arg>UINT8</Arg>
+    </showAskApplyJiebai>
+    <showJiebaiNameDlg>
+      <Arg>EID</Arg>
+      <Arg>UINT8</Arg>
+    </showJiebaiNameDlg>
+    <showChangeJiebaiNameDlg>
+      <Arg>EID</Arg>
+      <Arg>UINT8</Arg>
+    </showChangeJiebaiNameDlg>
+    <showAskRemoveJiebai>
+      <Arg>EID</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>UUID</Arg>
+      <Arg>KEY_NAME</Arg>
+    </showAskRemoveJiebai>
+  </CellMethods>
+  <ClientMethods>
+    <showJiebaiNameDlg>
+      <Arg>UINT8</Arg>
+    </showJiebaiNameDlg>
+    <showChangeJiebaiNameDlg>
+      <Arg>UINT8</Arg>
+    </showChangeJiebaiNameDlg>
+  </ClientMethods>
+</root>

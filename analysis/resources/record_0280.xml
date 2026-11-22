@@ -1,0 +1,25 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Properties>
+    <clanDBID>
+      <Type>DBID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </clanDBID>
+    <clanBaseBox>
+      <Type>MAILBOX</Type>
+      <Flags>BASE</Flags>
+      <Default>None</Default>
+    </clanBaseBox>
+    <clanFlags>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </clanFlags>
+  </Properties>
+  <BaseMethods />
+  <CellMethods />
+  <ClientMethods />
+</root>

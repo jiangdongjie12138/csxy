@@ -1,0 +1,57 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanHrManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanHrManagerID>
+  </Properties>
+  <CellMethods>
+    <onSetClanHeadCheck>
+      <Arg>EID</Arg>
+    </onSetClanHeadCheck>
+    <onSetClanHeadIDCheck>
+      <Arg>EID</Arg>
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+    </onSetClanHeadIDCheck>
+    <onGetQuitClanInfo>
+      <Arg>EID</Arg>
+      <Arg>LONGTIME</Arg>
+      <Arg>CLAN_CONTRIBUTION</Arg>
+      <Arg>CLAN_CONTRIBUTION</Arg>
+    </onGetQuitClanInfo>
+    <queryContributions>
+      <Exposed />
+      <Arg>UINT8</Arg>
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+    </queryContributions>
+    <exportContributions>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </exportContributions>
+  </CellMethods>
+  <ClientMethods>
+    <showClanContributions>
+      <Arg>UINT8</Arg>
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>ARRAY<of>CLAN_MEMBER_CONTRIBUTIONS_INFO</of>
+      </Arg>
+    </showClanContributions>
+    <exportClanContributions>
+      <Arg>UINT8</Arg>
+      <Arg>ARRAY<of>CLAN_MEMBER_CONTRIBUTIONS_INFO</of>
+      </Arg>
+    </exportClanContributions>
+  </ClientMethods>
+</root>

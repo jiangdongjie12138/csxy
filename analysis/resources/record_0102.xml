@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanXuanwuTangzhuID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanXuanwuTangzhuID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

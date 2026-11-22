@@ -1,0 +1,43 @@
+<root>
+  <Properties>
+    <isDestroying>
+      <Type>BOOL</Type>
+      <Flags>BASE</Flags>
+      <Default>0</Default>
+    </isDestroying>
+    <playerName>
+      <Type>KEY_NAME</Type>
+      <Flags>BASE_AND_CLIENT</Flags>
+      <DatabaseLength>128</DatabaseLength>
+      <Persistent>true</Persistent>
+      <Identifier>true</Identifier>
+    </playerName>
+    <playerUUID>
+      <Type>UUID</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <DatabaseLength>16</DatabaseLength>
+    </playerUUID>
+  </Properties>
+  <BaseMethods>
+    <callMethod>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </callMethod>
+    <entireDestroy>
+      <Arg>BOOL</Arg>
+      <Arg>BOOL</Arg>
+    </entireDestroy>
+    <introspect />
+    <setProperty>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </setProperty>
+    <getProperty>
+      <Arg>STRING</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </getProperty>
+  </BaseMethods>
+</root>

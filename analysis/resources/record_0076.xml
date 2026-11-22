@@ -1,0 +1,31 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <scoreManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </scoreManID>
+  </Properties>
+  <CellMethods>
+    <updateItemScore>
+      <Exposed />
+    </updateItemScore>
+    <scoreExchangeItem>
+      <Exposed />
+      <Arg>ITEM_ID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT16</Arg>
+    </scoreExchangeItem>
+  </CellMethods>
+  <ClientMethods>
+    <update_item_score>
+      <Arg>ARRAY<of>ITEM_SCORE_INFORM</of>
+      </Arg>
+    </update_item_score>
+  </ClientMethods>
+</root>

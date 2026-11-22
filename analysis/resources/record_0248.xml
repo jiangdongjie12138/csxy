@@ -1,0 +1,29 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <jailerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </jailerID>
+  </Properties>
+  <CellMethods>
+    <backPkPrison>
+      <Arg>EID</Arg>
+    </backPkPrison>
+    <showPrisonRule>
+      <Arg>EID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT16</Arg>
+    </showPrisonRule>
+    <showLeavePrison>
+      <Arg>EID</Arg>
+    </showLeavePrison>
+  </CellMethods>
+  <ClientMethods />
+</root>

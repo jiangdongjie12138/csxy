@@ -1,0 +1,43 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <equipAttrChangerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </equipAttrChangerID>
+  </Properties>
+  <CellMethods>
+    <equipAttrChangeType>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </equipAttrChangeType>
+    <onEquipAttrChangeType>
+      <Arg>EID</Arg>
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UUID</Arg>
+      <Arg>PYTHON</Arg>
+    </onEquipAttrChangeType>
+    <acceptEquipAttrChangeType>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>UUID</Arg>
+    </acceptEquipAttrChangeType>
+  </CellMethods>
+  <ClientMethods>
+    <showEquipAttrChangeTypeDialog />
+    <onEquipAttrChangeType>
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UUID</Arg>
+      <Arg>PYTHON</Arg>
+    </onEquipAttrChangeType>
+  </ClientMethods>
+</root>

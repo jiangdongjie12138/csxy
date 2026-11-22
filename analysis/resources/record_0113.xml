@@ -1,0 +1,28 @@
+<root>
+  <Implements>
+    <Interface>iDynSpaceManager</Interface>
+  </Implements>
+  <Properties />
+  <BaseMethods>
+    <createClanSpace>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>PYTHON</Arg>
+    </createClanSpace>
+    <updateClanSpace>
+      <Arg>SPACE_NO</Arg>
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>PYTHON</Arg>
+    </updateClanSpace>
+    <enterClanSpace>
+      <Arg>SPACE_NO</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>DBID</Arg>
+    </enterClanSpace>
+  </BaseMethods>
+</root>

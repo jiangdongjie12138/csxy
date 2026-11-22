@@ -1,0 +1,20 @@
+<root>
+  <Properties>
+    <modelFile>
+      <Editable>true</Editable>
+      <Type>STRING</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>char/20412/101.model</Default>
+    </modelFile>
+    <guide>
+      <Editable>true</Editable>
+      <Type>STRING</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </guide>
+    <introduce>
+      <Editable>true</Editable>
+      <Type>STRING</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </introduce>
+  </Properties>
+</root>

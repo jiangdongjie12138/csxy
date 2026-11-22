@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <landRFFactionID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </landRFFactionID>
+    <faction>
+      <Type>UINT8</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </faction>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

@@ -1,0 +1,41 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <landJiaoyeBuilderID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </landJiaoyeBuilderID>
+  </Properties>
+  <CellMethods>
+    <buildHome>
+      <Exposed />
+      <Arg>LAND_STYLE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>LAND_HOME_GEJU</Arg>
+    </buildHome>
+    <upgradeHome>
+      <Exposed />
+      <Arg>LAND_STYLE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>LAND_HOME_GEJU</Arg>
+    </upgradeHome>
+    <transferHome>
+      <Exposed />
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </transferHome>
+  </CellMethods>
+  <ClientMethods>
+    <build_home />
+    <pack_home />
+    <upgrade_home />
+    <transfer_home />
+  </ClientMethods>
+</root>

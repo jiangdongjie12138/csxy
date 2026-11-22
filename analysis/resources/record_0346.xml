@@ -1,0 +1,20 @@
+<root>
+  <Properties>
+    <roleName>
+      <Type>KEY_NAME</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </roleName>
+    <aspect>
+      <Type>UINT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </aspect>
+    <size>
+      <Type>FLOAT</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </size>
+    <index>
+      <Type>UINT8</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </index>
+  </Properties>
+</root>

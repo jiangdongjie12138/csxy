@@ -1,0 +1,47 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <requestItems>
+      <Type>TROPHY_REQUEST_INFO</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+    </requestItems>
+    <logs>
+      <Type>TROPHY_LOGS</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+    </logs>
+  </Properties>
+  <BaseMethods>
+    <giveTrophy>
+      <Arg>ARRAY<of>DBID_NAME_INFO</of>
+      </Arg>
+      <Arg>DROP_LIB_ID</Arg>
+      <Arg>CUSTOM_BATTLE_ID</Arg>
+      <Arg>UINT16</Arg>
+    </giveTrophy>
+    <setRequestAction>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>UUID</Arg>
+      <Arg>UINT8</Arg>
+    </setRequestAction>
+    <queryRequestDetail>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>UUID</Arg>
+    </queryRequestDetail>
+    <playerLogon>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+    </playerLogon>
+    <queryLogs>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+    </queryLogs>
+    <onMaintainLog />
+  </BaseMethods>
+</root>

@@ -1,0 +1,14 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+  </Implements>
+  <Properties>
+    <newbieTriggerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </newbieTriggerID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

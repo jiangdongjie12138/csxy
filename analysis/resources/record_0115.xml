@@ -1,0 +1,18 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+  </Implements>
+  <Properties>
+    <useItemTriggerID>
+      <Type>ITEM_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </useItemTriggerID>
+    <radius>
+      <Type>UINT8</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </radius>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

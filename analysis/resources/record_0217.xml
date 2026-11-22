@@ -1,0 +1,46 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <storeManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </storeManID>
+  </Properties>
+  <CellMethods>
+    <query>
+      <Exposed />
+      <Arg>PAGE</Arg>
+    </query>
+    <buy>
+      <Exposed />
+      <Arg>ITEM_ID</Arg>
+      <Arg>AMOUNT</Arg>
+    </buy>
+    <sell>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>AMOUNT</Arg>
+    </sell>
+    <retrieve>
+      <Exposed />
+      <Arg>UUID</Arg>
+    </retrieve>
+    <retrieveAll>
+      <Exposed />
+    </retrieveAll>
+  </CellMethods>
+  <ClientMethods>
+    <storeQuery>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>ARRAY<of>ITEM_ID</of>
+      </Arg>
+    </storeQuery>
+  </ClientMethods>
+</root>

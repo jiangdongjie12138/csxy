@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <fubenExitmanID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </fubenExitmanID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

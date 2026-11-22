@@ -1,0 +1,64 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanManagerID>
+  </Properties>
+  <CellMethods>
+    <clanPropose>
+      <Exposed />
+      <Arg>STRING</Arg>
+      <Arg>STRING</Arg>
+      <Arg>STRING</Arg>
+      <Arg>DATA_ID</Arg>
+      <Arg>ARRAY<of>CLAN_BUILDING_BASE_INFO</of>
+      </Arg>
+      <Arg>CLAN_LOGO</Arg>
+    </clanPropose>
+    <queryClanProposals>
+      <Exposed />
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+    </queryClanProposals>
+    <clanRespond>
+      <Exposed />
+      <Arg>UUID</Arg>
+    </clanRespond>
+    <queryClans>
+      <Exposed />
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+    </queryClans>
+    <clanApplyJoin>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>STRING</Arg>
+    </clanApplyJoin>
+  </CellMethods>
+  <ClientMethods>
+    <showClanProposeDialog />
+    <closeClanProposeDialog />
+    <showClanProposals>
+      <Arg>ARRAY<of>SIMPLE_CLAN_PROPOSAL_INFO</of>
+      </Arg>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+    </showClanProposals>
+    <showClans>
+      <Arg>ARRAY<of>BRIEF_CLAN_INFO</of>
+      </Arg>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+    </showClans>
+    <closeClanApplyJoinDialog />
+  </ClientMethods>
+</root>

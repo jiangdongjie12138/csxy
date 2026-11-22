@@ -1,0 +1,12 @@
+<root>
+  <Implements>
+    <Interface>iProxy</Interface>
+  </Implements>
+  <BaseMethods>
+    <onGetSpaceCell>
+      <Arg>SPACE_NO</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>PYTHON</Arg>
+    </onGetSpaceCell>
+  </BaseMethods>
+</root>

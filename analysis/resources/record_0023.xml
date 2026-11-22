@@ -1,0 +1,20 @@
+<root>
+  <Properties>
+    <outerradius>
+      <Editable>true</Editable>
+      <Type>FLOAT</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>10</Default>
+    </outerradius>
+    <effect>
+      <Editable>true</Editable>
+      <Type>STRING</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </effect>
+    <tips>
+      <Editable>true</Editable>
+      <Type>STRING</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </tips>
+  </Properties>
+</root>

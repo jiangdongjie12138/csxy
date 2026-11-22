@@ -1,0 +1,61 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanWelfareManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanWelfareManagerID>
+  </Properties>
+  <CellMethods>
+    <learnClanSkill>
+      <Exposed />
+      <Arg>SKILL_ID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>CLAN_PRICEINDEX</Arg>
+      <Arg>BOOL</Arg>
+    </learnClanSkill>
+    <setCurrClanSkill>
+      <Exposed />
+      <Arg>SKILL_ID</Arg>
+    </setCurrClanSkill>
+    <setPriceIndex>
+      <Exposed />
+      <Arg>CLAN_PRICEINDEX</Arg>
+      <Arg>CLAN_PRICEINDEX</Arg>
+      <Arg>CLAN_PRICEINDEX</Arg>
+    </setPriceIndex>
+    <buyMedicine>
+      <Exposed />
+      <Arg>ITEM_ID</Arg>
+      <Arg>AMOUNT</Arg>
+      <Arg>CLAN_PRICEINDEX</Arg>
+    </buyMedicine>
+  </CellMethods>
+  <ClientMethods>
+    <showLearnClanSkillDialog>
+      <Arg>ARRAY<of>CLAN_SKILL_VAL</of>
+      </Arg>
+      <Arg>SKILL_ID</Arg>
+    </showLearnClanSkillDialog>
+    <showSetCurrClanSkillDialog>
+      <Arg>ARRAY<of>CLAN_SKILL_VAL</of>
+      </Arg>
+      <Arg>SKILL_ID</Arg>
+    </showSetCurrClanSkillDialog>
+    <showPriceIndexDialog>
+      <Arg>CLAN_PRICEINDEX</Arg>
+      <Arg>CLAN_PRICEINDEX</Arg>
+      <Arg>CLAN_PRICEINDEX</Arg>
+    </showPriceIndexDialog>
+    <showBuyMedicineDialog>
+      <Arg>ARRAY<of>CLAN_MEDICINE_INFO_EX</of>
+      </Arg>
+      <Arg>CLAN_PRICEINDEX</Arg>
+    </showBuyMedicineDialog>
+  </ClientMethods>
+</root>

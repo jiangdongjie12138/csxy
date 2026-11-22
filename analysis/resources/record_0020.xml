@@ -1,0 +1,27 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+  </Implements>
+  <Properties>
+    <triggerID>
+      <Type>UINT32</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </triggerID>
+    <avatars>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </avatars>
+    <checks>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </checks>
+  </Properties>
+  <CellMethods>
+    <checkData>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </checkData>
+  </CellMethods>
+  <ClientMethods />
+</root>

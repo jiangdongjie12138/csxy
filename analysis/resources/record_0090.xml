@@ -1,0 +1,106 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanFinanceManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanFinanceManagerID>
+  </Properties>
+  <CellMethods>
+    <queryClanChargeDues>
+      <Exposed />
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+    </queryClanChargeDues>
+    <queryClanRewardDues>
+      <Exposed />
+      <Arg>UINT8</Arg>
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+    </queryClanRewardDues>
+    <exportClanRewardDues>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </exportClanRewardDues>
+    <queryClanClaimRewardDues>
+      <Exposed />
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+    </queryClanClaimRewardDues>
+    <exportClanClaimRewardDues>
+      <Exposed />
+    </exportClanClaimRewardDues>
+    <onSetClanAutoChargeDuesCheck>
+      <Arg>EID</Arg>
+    </onSetClanAutoChargeDuesCheck>
+    <chargeDues>
+      <Exposed />
+    </chargeDues>
+    <setRewardDues>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>CLAN_DUES</Arg>
+      <Arg>STRING</Arg>
+      <Arg>UINT32</Arg>
+    </setRewardDues>
+    <cancelRewardDues>
+      <Exposed />
+      <Arg>DBID</Arg>
+    </cancelRewardDues>
+    <claimRewardDues>
+      <Exposed />
+    </claimRewardDues>
+    <sendMailForChargeDues>
+      <Exposed />
+    </sendMailForChargeDues>
+  </CellMethods>
+  <ClientMethods>
+    <showClanChargeDues>
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>ARRAY<of>CLAN_MEMBER_CHARGE_DUES_INFO</of>
+      </Arg>
+      <Arg>CLAN_DUES</Arg>
+    </showClanChargeDues>
+    <showClanRewardDues>
+      <Arg>UINT8</Arg>
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>ARRAY<of>CLAN_MEMBER_REWARD_DUES_INFO</of>
+      </Arg>
+      <Arg>CLAN_DUES</Arg>
+      <Arg>UINT32</Arg>
+    </showClanRewardDues>
+    <exportClanRewardDues>
+      <Arg>UINT8</Arg>
+      <Arg>ARRAY<of>CLAN_MEMBER_REWARD_DUES_INFO</of>
+      </Arg>
+    </exportClanRewardDues>
+    <showClanClaimRewardDues>
+      <Arg>ORDER</Arg>
+      <Arg>BOOL</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>ARRAY<of>CLAN_MEMBER_CLAIM_REWARD_DUES_INFO</of>
+      </Arg>
+      <Arg>CLAN_DUES</Arg>
+      <Arg>UINT32</Arg>
+    </showClanClaimRewardDues>
+    <exportClanClaimRewardDues>
+      <Arg>ARRAY<of>CLAN_MEMBER_CLAIM_REWARD_DUES_INFO</of>
+      </Arg>
+    </exportClanClaimRewardDues>
+  </ClientMethods>
+</root>

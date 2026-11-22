@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanZhuqueTangzhuID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanZhuqueTangzhuID>
+  </Properties>
+  <CellMethods>
+    <onSetAlliedClanCheck>
+      <Arg>EID</Arg>
+    </onSetAlliedClanCheck>
+  </CellMethods>
+  <ClientMethods />
+</root>

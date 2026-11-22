@@ -1,0 +1,90 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <questManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </questManID>
+    <userData>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Persistent>false</Persistent>
+      <Default>None</Default>
+    </userData>
+  </Properties>
+  <CellMethods>
+    <showQuest>
+      <Exposed />
+      <Arg>QUEST_NO</Arg>
+    </showQuest>
+    <acceptQuest>
+      <Exposed />
+      <Arg>QUEST_NO</Arg>
+    </acceptQuest>
+    <onGainQuest>
+      <Arg>EID</Arg>
+      <Arg>QUEST_NO</Arg>
+    </onGainQuest>
+    <showCompleteQuest>
+      <Exposed />
+      <Arg>QUEST_NO</Arg>
+    </showCompleteQuest>
+    <completeQuest>
+      <Exposed />
+      <Arg>QUEST_NO</Arg>
+    </completeQuest>
+    <completeQuestWithItem>
+      <Exposed />
+      <Arg>QUEST_NO</Arg>
+      <Arg>PAGE_POS_INFO</Arg>
+    </completeQuestWithItem>
+    <onCompleteQuest>
+      <Arg>EID</Arg>
+      <Arg>QUEST_NO</Arg>
+    </onCompleteQuest>
+    <showQuiz>
+      <Arg>EID</Arg>
+      <Arg>QUEST_NO</Arg>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </showQuiz>
+    <showQuizResult>
+      <Arg>EID</Arg>
+      <Arg>QUEST_NO</Arg>
+      <Arg>STRING</Arg>
+      <Arg>UINT8</Arg>
+    </showQuizResult>
+    <beginBattle>
+      <Exposed />
+    </beginBattle>
+    <preBeginCircleQuest>
+      <Exposed />
+      <Arg>CIRCLE_QUEST_ID</Arg>
+    </preBeginCircleQuest>
+    <beginCircleQuest>
+      <Exposed />
+      <Arg>CIRCLE_QUEST_ID</Arg>
+    </beginCircleQuest>
+    <setUserData>
+      <Arg>PYTHON</Arg>
+    </setUserData>
+  </CellMethods>
+  <ClientMethods>
+    <showGossip />
+    <showQuests />
+    <showQuest>
+      <Arg>QUEST_NO</Arg>
+    </showQuest>
+    <showCompleteQuest>
+      <Arg>QUEST_NO</Arg>
+    </showCompleteQuest>
+    <showCircleQuest>
+      <Arg>CIRCLE_QUEST_ID</Arg>
+    </showCircleQuest>
+  </ClientMethods>
+</root>

@@ -1,0 +1,22 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <kejuRegistrarID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </kejuRegistrarID>
+  </Properties>
+  <CellMethods>
+    <onCheckRegJuniorExam>
+      <Arg>EID</Arg>
+      <Arg>STAMINA</Arg>
+      <Arg>VITALITY</Arg>
+    </onCheckRegJuniorExam>
+  </CellMethods>
+  <ClientMethods />
+</root>

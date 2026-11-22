@@ -1,0 +1,23 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <equipBindManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </equipBindManID>
+  </Properties>
+  <CellMethods>
+    <equipBind>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+    </equipBind>
+  </CellMethods>
+  <ClientMethods>
+    <showEquipBindDialog />
+  </ClientMethods>
+</root>

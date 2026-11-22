@@ -1,0 +1,32 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <weddingFireworkID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </weddingFireworkID>
+    <spaceLevel>
+      <Type>UINT8</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </spaceLevel>
+    <fireworkID>
+      <Type>UINT32</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </fireworkID>
+  </Properties>
+  <CellMethods>
+    <playSpaceEffect>
+      <Arg>UINT8</Arg>
+      <Arg>BOOL</Arg>
+    </playSpaceEffect>
+  </CellMethods>
+  <ClientMethods />
+</root>

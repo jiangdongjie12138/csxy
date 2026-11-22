@@ -1,0 +1,37 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <RenqiZhangmenID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </RenqiZhangmenID>
+  </Properties>
+  <BaseMethods />
+  <CellMethods>
+    <receiveDeclaration>
+      <Exposed />
+      <Arg>STRING</Arg>
+    </receiveDeclaration>
+    <receiveBallot>
+      <Exposed />
+      <Arg>DBID</Arg>
+    </receiveBallot>
+    <getCandidatePage>
+      <Exposed />
+      <Arg>PAGE</Arg>
+    </getCandidatePage>
+  </CellMethods>
+  <ClientMethods>
+    <input_renqi_zhangmen_declaration />
+    <renqi_zhangmen_candidate_info>
+      <Arg>PAGE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>PYTHON</Arg>
+    </renqi_zhangmen_candidate_info>
+  </ClientMethods>
+</root>

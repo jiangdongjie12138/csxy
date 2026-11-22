@@ -1,0 +1,22 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <suicideGuideID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </suicideGuideID>
+  </Properties>
+  <CellMethods>
+    <onGetSuicideApplyTime>
+      <Arg>EID</Arg>
+      <Arg>LONGTIME</Arg>
+      <Arg>PYTHON</Arg>
+    </onGetSuicideApplyTime>
+  </CellMethods>
+  <ClientMethods />
+</root>

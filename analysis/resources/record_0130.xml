@@ -1,0 +1,37 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <holidayLadyID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </holidayLadyID>
+  </Properties>
+  <CellMethods>
+    <birthdayRecord>
+      <Exposed />
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+    </birthdayRecord>
+    <birthdayQuery>
+      <Exposed />
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+    </birthdayQuery>
+  </CellMethods>
+  <ClientMethods>
+    <show_holiday_dlg />
+    <show_birthday_dlg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+    </show_birthday_dlg>
+    <show_birthday_result>
+      <Arg>ARRAY<of>BIRTHDAY_INFO</of>
+      </Arg>
+    </show_birthday_result>
+  </ClientMethods>
+</root>

@@ -1,0 +1,22 @@
+<root>
+  <Implements>
+    <Interface>iBox</Interface>
+  </Implements>
+  <Properties>
+    <questBoxID>
+      <Type>QUESTBOX_NO</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </questBoxID>
+    <monsterBorn>
+      <Type>BOOL</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </monsterBorn>
+  </Properties>
+  <CellMethods>
+    <onUseQuestBoxCheck>
+      <Arg>EID</Arg>
+      <Arg>BOOL</Arg>
+    </onUseQuestBoxCheck>
+  </CellMethods>
+</root>

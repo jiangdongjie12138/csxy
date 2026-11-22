@@ -1,0 +1,35 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <carnivalCakeID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </carnivalCakeID>
+    <clickedPlayer>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>set()</Default>
+      <Persistent>false</Persistent>
+    </clickedPlayer>
+    <ownerDBID>
+      <Type>DBID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Persistent>false</Persistent>
+    </ownerDBID>
+    <clickTime>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Persistent>false</Persistent>
+    </clickTime>
+  </Properties>
+  <BaseMethods />
+  <CellMethods>
+    <destroyCake />
+  </CellMethods>
+  <ClientMethods />
+</root>

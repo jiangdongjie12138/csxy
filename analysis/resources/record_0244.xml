@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+  </Implements>
+  <Properties>
+    <aspect>
+      <Type>NPC_ASPECT</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </aspect>
+    <ttl>
+      <Type>INT32</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </ttl>
+  </Properties>
+</root>

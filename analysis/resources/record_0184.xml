@@ -1,0 +1,24 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <carnivalXiFuManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </carnivalXiFuManID>
+  </Properties>
+  <CellMethods>
+    <showXiFuWord>
+      <Exposed />
+    </showXiFuWord>
+  </CellMethods>
+  <ClientMethods>
+    <showXiFuWord>
+      <Arg>EID</Arg>
+    </showXiFuWord>
+  </ClientMethods>
+</root>

@@ -1,0 +1,25 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <faceliftLadyID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </faceliftLadyID>
+  </Properties>
+  <CellMethods>
+    <doFacelift>
+      <Exposed />
+      <Arg>FACESTYLE</Arg>
+      <Arg>HAIRSTYLE</Arg>
+      <Arg>COLOR</Arg>
+    </doFacelift>
+  </CellMethods>
+  <ClientMethods>
+    <beginFacelift />
+  </ClientMethods>
+</root>

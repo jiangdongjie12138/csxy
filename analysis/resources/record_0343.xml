@@ -1,0 +1,12 @@
+<root>
+  <Properties>
+    <aspect>
+      <Type>UINT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </aspect>
+    <size>
+      <Type>FLOAT</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </size>
+  </Properties>
+</root>

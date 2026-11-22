@@ -1,0 +1,48 @@
+<root>
+  <Implements>
+    <Interface>iDynSpaceManager</Interface>
+  </Implements>
+  <Properties>
+    <footballSpace>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </footballSpace>
+  </Properties>
+  <BaseMethods>
+    <prepareMatch />
+    <beginMatch />
+    <prepareCloseMatch />
+    <closeMatch />
+    <avatarEnterSpace>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>NPC_ID</Arg>
+    </avatarEnterSpace>
+    <inviteFight>
+      <Arg>MAILBOX</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>STRING</Arg>
+    </inviteFight>
+    <stopBattle>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>FOOTBALL_SCORE</Arg>
+    </stopBattle>
+    <avatarLeaveSpace>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+    </avatarLeaveSpace>
+    <attackMonster>
+      <Arg>MAILBOX</Arg>
+      <Arg>MAILBOX</Arg>
+    </attackMonster>
+    <attackBoss>
+      <Arg>MAILBOX</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>LEVEL</Arg>
+    </attackBoss>
+  </BaseMethods>
+</root>

@@ -1,0 +1,77 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Properties>
+    <lastwave>
+      <Type>LONGTIME</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </lastwave>
+    <merchant_info>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </merchant_info>
+    <merchant_dialog>
+      <Type>STRING</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </merchant_dialog>
+    <sale_range>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>{}</Default>
+    </sale_range>
+    <buy_range>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>{}</Default>
+    </buy_range>
+    <sale>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>{}</Default>
+    </sale>
+    <buy>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>{}</Default>
+    </buy>
+  </Properties>
+  <BaseMethods />
+  <CellMethods>
+    <updateTradeList>
+      <Exposed />
+    </updateTradeList>
+    <saleTradeItem>
+      <Exposed />
+      <Arg>LONGTIME</Arg>
+      <Arg>ITEM_ID</Arg>
+      <Arg>AMOUNT</Arg>
+    </saleTradeItem>
+    <onSaleTradeItem>
+      <Arg>ITEM_ID</Arg>
+      <Arg>AMOUNT</Arg>
+      <Arg>BOOL</Arg>
+    </onSaleTradeItem>
+    <buyTradeItem>
+      <Exposed />
+      <Arg>LONGTIME</Arg>
+      <Arg>ITEM_ID</Arg>
+      <Arg>AMOUNT</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </buyTradeItem>
+  </CellMethods>
+  <ClientMethods>
+    <update_trade_list>
+      <Arg>LONGTIME</Arg>
+      <Arg>PYTHON</Arg>
+      <Arg>PYTHON</Arg>
+    </update_trade_list>
+    <buy_trade_item>
+      <Arg>ITEM_ID</Arg>
+      <Arg>AMOUNT</Arg>
+    </buy_trade_item>
+    <show_trade_panel />
+  </ClientMethods>
+</root>

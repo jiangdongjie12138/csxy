@@ -1,0 +1,29 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <xiehouFosterManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </xiehouFosterManID>
+  </Properties>
+  <CellMethods>
+    <doFosterAnimals>
+      <Exposed />
+      <Arg>ITEM_ID</Arg>
+    </doFosterAnimals>
+    <genAnimal>
+      <Arg>ARRAY<of>KEY_NAME</of>
+      </Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>ITEM_ID</Arg>
+    </genAnimal>
+  </CellMethods>
+  <ClientMethods>
+    <beginXiehouFoster />
+  </ClientMethods>
+</root>

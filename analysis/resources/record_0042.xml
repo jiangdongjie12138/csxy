@@ -1,0 +1,50 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanChiefManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanChiefManagerID>
+  </Properties>
+  <CellMethods>
+    <setDelegatePermission>
+      <Exposed />
+      <Arg>ARRAY<of>CLAN_DELEGATE_PERMISSION_INFO</of>
+      </Arg>
+    </setDelegatePermission>
+    <sendMail>
+      <Exposed />
+      <Arg>STRING</Arg>
+    </sendMail>
+    <setObjective>
+      <Exposed />
+      <Arg>STRING</Arg>
+    </setObjective>
+    <setMaintainFrequence>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </setMaintainFrequence>
+  </CellMethods>
+  <ClientMethods>
+    <showDelegatePermissionDialog>
+      <Arg>PYTHON</Arg>
+      <Arg>ARRAY<of>TINY_CLAN_MEMBER_INFO</of>
+      </Arg>
+    </showDelegatePermissionDialog>
+    <showMailDialog>
+      <Arg>UINT16</Arg>
+    </showMailDialog>
+    <showObjectiveDialog>
+      <Arg>STRING</Arg>
+    </showObjectiveDialog>
+    <closeObjectiveDialog />
+    <showFrequenceDialog>
+      <Arg>UINT8</Arg>
+    </showFrequenceDialog>
+  </ClientMethods>
+</root>

@@ -1,0 +1,8 @@
+{
+  "directory": "CSXY_FriendPackage_20261013_153202",
+  "runtime_bundled": true,
+  "saves_included": false,
+  "logs_included": false,
+  "python": "3.11.9",
+  "key_policy": "fresh distribution-only key, developer key never read or copied"
+}

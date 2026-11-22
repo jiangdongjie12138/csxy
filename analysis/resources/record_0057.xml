@@ -1,0 +1,54 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <ClanWarGuardID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </ClanWarGuardID>
+    <ClanDBID>
+      <Type>DBID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </ClanDBID>
+    <enemyClanDBID>
+      <Type>DBID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </enemyClanDBID>
+    <timerID>
+      <Type>CONTROLLER_ID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </timerID>
+    <attacker>
+      <Type>MAILBOX</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </attacker>
+    <kind>
+      <Type>UINT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </kind>
+    <neutralAttacker>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>{}</Default>
+    </neutralAttacker>
+    <hasDefeat>
+      <Type>BOOL</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>False</Default>
+    </hasDefeat>
+    <attackerIDs>
+      <Type>PYTHON</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>[]</Default>
+    </attackerIDs>
+  </Properties>
+  <CellMethods>
+    <clanWarEnd />
+  </CellMethods>
+  <ClientMethods />
+</root>

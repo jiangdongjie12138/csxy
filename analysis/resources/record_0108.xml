@@ -1,0 +1,28 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <doubleManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </doubleManID>
+  </Properties>
+  <CellMethods>
+    <onGetDoubleExpTime>
+      <Arg>EID</Arg>
+      <Arg>LONGTIME</Arg>
+      <Arg>LONGTIME</Arg>
+      <Arg>UINT8</Arg>
+    </onGetDoubleExpTime>
+    <onGetCurrDoubleExpTime>
+      <Arg>EID</Arg>
+      <Arg>LONGTIME</Arg>
+      <Arg>UINT8</Arg>
+    </onGetCurrDoubleExpTime>
+  </CellMethods>
+  <ClientMethods />
+</root>

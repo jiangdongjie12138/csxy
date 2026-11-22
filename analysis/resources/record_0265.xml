@@ -1,0 +1,46 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <pearlManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </pearlManID>
+  </Properties>
+  <CellMethods>
+    <digPearl>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>ARRAY<of>INDEX_ITEM_POS_UUID</of>
+      </Arg>
+    </digPearl>
+    <synthesisPearl>
+      <Exposed />
+      <Arg>ARRAY<of>ITEM_POS_UUID</of>
+      </Arg>
+      <Arg>BOOL</Arg>
+    </synthesisPearl>
+    <changePearl>
+      <Exposed />
+      <Arg>ARRAY<of>ITEM_POS_UUID</of>
+      </Arg>
+    </changePearl>
+    <mergePearl>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>BOOL</Arg>
+    </mergePearl>
+  </CellMethods>
+  <ClientMethods>
+    <showDigPearlDialog />
+    <showDigSuperPearlDialog />
+    <showSynthesisPearlDialog />
+    <showChangePearlDialog />
+    <showMergePearlDlg />
+  </ClientMethods>
+</root>

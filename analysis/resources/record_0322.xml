@@ -1,0 +1,38 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <weddingManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </weddingManagerID>
+  </Properties>
+  <CellMethods>
+    <doBookWedding>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </doBookWedding>
+    <doBeginParade>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </doBeginParade>
+    <cancelBookWedding>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </cancelBookWedding>
+  </CellMethods>
+  <ClientMethods>
+    <bookWedding>
+      <Arg>ARRAY<of>KEY_NAME</of>
+      </Arg>
+    </bookWedding>
+    <beginParade>
+      <Arg>ARRAY<of>KEY_NAME</of>
+      </Arg>
+    </beginParade>
+  </ClientMethods>
+</root>

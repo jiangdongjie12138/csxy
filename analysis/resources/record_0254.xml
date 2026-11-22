@@ -1,0 +1,27 @@
+<root>
+  <Implements>
+    <Interface>iDynSpaceManager</Interface>
+  </Implements>
+  <Properties />
+  <BaseMethods>
+    <informGround>
+      <Arg>SPACE_NO</Arg>
+      <Arg>DBID</Arg>
+      <Arg>LANDCLIENT_GROUND</Arg>
+    </informGround>
+    <onCreateInstance>
+      <Arg>SPACE_NO</Arg>
+    </onCreateInstance>
+    <onNewLogon>
+      <Arg>SPACE_NO</Arg>
+      <Arg>DBID</Arg>
+      <Arg>MAILBOX</Arg>
+    </onNewLogon>
+    <enterJuluo>
+      <Arg>SPACE_NO</Arg>
+      <Arg>POSITION</Arg>
+      <Arg>DIRECTION</Arg>
+      <Arg>MAILBOX</Arg>
+    </enterJuluo>
+  </BaseMethods>
+</root>

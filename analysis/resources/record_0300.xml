@@ -1,0 +1,42 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <soulguardManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </soulguardManID>
+  </Properties>
+  <CellMethods>
+    <showSynthesisDialog>
+      <Arg>EID</Arg>
+    </showSynthesisDialog>
+    <synthesisSoulguard>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </synthesisSoulguard>
+    <reinforceSynthesisSoulguard>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </reinforceSynthesisSoulguard>
+    <showReinforceSynthesisDialog>
+      <Arg>EID</Arg>
+      <Arg>ITEM_ID</Arg>
+      <Arg>UINT8</Arg>
+    </showReinforceSynthesisDialog>
+    <showReinforceSynthesisTips>
+      <Arg>EID</Arg>
+      <Arg>ITEM_ID</Arg>
+      <Arg>UINT8</Arg>
+    </showReinforceSynthesisTips>
+  </CellMethods>
+  <ClientMethods>
+    <showSynthesisSoulguardDialog />
+  </ClientMethods>
+</root>

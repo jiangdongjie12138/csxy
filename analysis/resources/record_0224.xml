@@ -1,0 +1,50 @@
+<root>
+  <Properties>
+    <spaceNo>
+      <Type>SPACE_NO</Type>
+      <Flags>CELL_PUBLIC_AND_OWN</Flags>
+      <Persistent>true</Persistent>
+    </spaceNo>
+  </Properties>
+  <CellMethods>
+    <callMethod>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </callMethod>
+    <goto>
+      <Arg>MAILBOX</Arg>
+      <Arg>SPACE_NO</Arg>
+      <Arg>POSITION_ARG</Arg>
+      <Arg>DIRECTION_ARG</Arg>
+    </goto>
+    <safeDestroy />
+    <introspect />
+    <retouch />
+    <createNpcs>
+      <Arg>DATA_ID</Arg>
+      <Arg>EID</Arg>
+      <Arg>QUEST_NO</Arg>
+    </createNpcs>
+    <setProperty>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </setProperty>
+    <getProperty>
+      <Arg>STRING</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </getProperty>
+  </CellMethods>
+  <LoDLevels>
+    <level>25<hyst>5</hyst>
+      <label>NEAR</label>
+    </level>
+    <level>50<hyst>7</hyst>
+      <label>MEDIUM</label>
+    </level>
+    <level>75<hyst>10</hyst>
+      <label>FAR</label>
+    </level>
+  </LoDLevels>
+</root>

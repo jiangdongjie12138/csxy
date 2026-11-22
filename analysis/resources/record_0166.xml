@@ -1,0 +1,27 @@
+<root>
+  <Implements>
+    <Interface>iClanNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanNumenID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanNumenID>
+  </Properties>
+  <CellMethods>
+    <beginLilian>
+      <Exposed />
+      <Arg>ARRAY<of>LILIAN_ID</of>
+      </Arg>
+    </beginLilian>
+  </CellMethods>
+  <ClientMethods>
+    <showLilian>
+      <Arg>ARRAY<of>LILIAN_ID</of>
+      </Arg>
+    </showLilian>
+  </ClientMethods>
+</root>

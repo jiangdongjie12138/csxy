@@ -1,0 +1,102 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <itemOutput>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </itemOutput>
+    <itemOutputReport>
+      <Type>UINT8</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>0</Default>
+    </itemOutputReport>
+    <cashOutput>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </cashOutput>
+    <cashConsume>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </cashConsume>
+    <totalCashOutput>
+      <Type>UINT64</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>0</Default>
+    </totalCashOutput>
+    <totalCashConsume>
+      <Type>UINT64</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>0</Default>
+    </totalCashConsume>
+    <expOutput>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </expOutput>
+    <totalExpOutput>
+      <Type>UINT64</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>0</Default>
+    </totalExpOutput>
+    <renownTradeStat>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </renownTradeStat>
+    <renownDonateStat>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </renownDonateStat>
+    <renownStatReport>
+      <Type>UINT8</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>0</Default>
+    </renownStatReport>
+  </Properties>
+  <BaseMethods>
+    <logLiuPaiQuest />
+    <logShaoShuangQuest />
+    <logYunBiaoQuest />
+    <logJiXingQuest />
+    <logJingShiQuest />
+    <logCircleQuest />
+    <logShangjinQuest />
+    <logXiehouQuest />
+    <logPeachKuafuQuest />
+    <logRenownLevel />
+    <logRenownValue />
+    <logOutput />
+    <reportOutput>
+      <Arg>PYTHON</Arg>
+      <Arg>PYTHON</Arg>
+      <Arg>PYTHON</Arg>
+      <Arg>PYTHON</Arg>
+    </reportOutput>
+    <clearOutput />
+    <logRenownStat />
+    <reportRenownStat>
+      <Arg>PYTHON</Arg>
+      <Arg>PYTHON</Arg>
+      <Arg>PYTHON</Arg>
+      <Arg>PYTHON</Arg>
+    </reportRenownStat>
+  </BaseMethods>
+</root>

@@ -1,0 +1,27 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <peachFaeryID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </peachFaeryID>
+    <canReward>
+      <Type>BOOL</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </canReward>
+  </Properties>
+  <CellMethods>
+    <onShowWaterReward>
+      <Arg>EID</Arg>
+      <Arg>UINT32</Arg>
+      <Arg>UINT32</Arg>
+    </onShowWaterReward>
+    <openReward />
+  </CellMethods>
+  <ClientMethods />
+</root>

@@ -1,0 +1,66 @@
+<root>
+  <Implements>
+    <Interface>iDynSpaceManager</Interface>
+  </Implements>
+  <Properties>
+    <slcSpace>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>false</Persistent>
+      <Default>{}</Default>
+    </slcSpace>
+    <avatarFloor>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+      <Default>{}</Default>
+    </avatarFloor>
+  </Properties>
+  <BaseMethods>
+    <prepareMatch />
+    <beginMatch />
+    <closeMatch />
+    <checkNewMonth />
+    <avatarEnterSpace>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>NPC_ID</Arg>
+    </avatarEnterSpace>
+    <avatarLeaveSpace>
+      <Arg>BOOL</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>DBID</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>NPC_ID</Arg>
+    </avatarLeaveSpace>
+    <inviteFight>
+      <Arg>MAILBOX</Arg>
+      <Arg>MAILBOX</Arg>
+      <Arg>STRING</Arg>
+    </inviteFight>
+    <stopBattle>
+      <Arg>MAILBOX</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>DBID</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>UINT32</Arg>
+      <Arg>UINT32</Arg>
+    </stopBattle>
+    <setAvatarFloor>
+      <Arg>DBID</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>UINT8</Arg>
+    </setAvatarFloor>
+    <goUpFloor>
+      <Arg>MAILBOX</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>DBID</Arg>
+    </goUpFloor>
+    <goDownFloor>
+      <Arg>MAILBOX</Arg>
+      <Arg>LEVEL</Arg>
+      <Arg>DBID</Arg>
+    </goDownFloor>
+  </BaseMethods>
+</root>

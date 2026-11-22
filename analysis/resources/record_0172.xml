@@ -1,0 +1,16 @@
+<root>
+  <Implements>
+    <Interface>iClanMerchantMan</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanMerchantNpcID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanMerchantNpcID>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

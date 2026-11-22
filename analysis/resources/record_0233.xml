@@ -1,0 +1,24 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <assistSkillManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </assistSkillManID>
+  </Properties>
+  <CellMethods>
+    <learnClanSkillOutside>
+      <Exposed />
+      <Arg>SKILL_ID</Arg>
+      <Arg>ITEM_POS_UUID</Arg>
+    </learnClanSkillOutside>
+  </CellMethods>
+  <ClientMethods>
+    <showLearnClanSkillOutside />
+  </ClientMethods>
+</root>

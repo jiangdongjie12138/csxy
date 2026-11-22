@@ -1,0 +1,110 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <landGroundIdlerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </landGroundIdlerID>
+    <host>
+      <Type>DBID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </host>
+    <ground>
+      <Type>UINT16</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </ground>
+    <name>
+      <Type>STRING</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </name>
+    <hostname>
+      <Type>KEY_NAME</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </hostname>
+  </Properties>
+  <CellMethods>
+    <setHost>
+      <Arg>DBID</Arg>
+    </setHost>
+    <setName>
+      <Arg>STRING</Arg>
+    </setName>
+    <onGetHostName>
+      <Arg>KEY_NAME</Arg>
+      <Arg>PYTHON</Arg>
+    </onGetHostName>
+    <onUpdateHostName>
+      <Arg>KEY_NAME</Arg>
+      <Arg>PYTHON</Arg>
+    </onUpdateHostName>
+    <buildHome>
+      <Exposed />
+      <Arg>LAND_STYLE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>LAND_HOME_GEJU</Arg>
+    </buildHome>
+    <upgradeHome>
+      <Exposed />
+      <Arg>LAND_STYLE</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>LAND_HOME_GEJU</Arg>
+    </upgradeHome>
+    <transferHome>
+      <Exposed />
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </transferHome>
+    <queryMessage>
+      <Exposed />
+    </queryMessage>
+    <writeMessage>
+      <Exposed />
+      <Arg>LONGTIME</Arg>
+      <Arg>STRING</Arg>
+    </writeMessage>
+    <clearMessage>
+      <Exposed />
+    </clearMessage>
+    <changeName>
+      <Exposed />
+      <Arg>STRING</Arg>
+    </changeName>
+    <returnJuluo>
+      <Exposed />
+    </returnJuluo>
+  </CellMethods>
+  <ClientMethods>
+    <operate_dialog />
+    <msg_dialog>
+      <Arg>KEY_NAME</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>LAND_DEEDID</Arg>
+      <Arg>LAND_FENGSHUI</Arg>
+      <Arg>ARRAY<of>LAND_HOME_MSG</of>
+      </Arg>
+    </msg_dialog>
+    <msg_update>
+      <Arg>ARRAY<of>LAND_HOME_MSG</of>
+      </Arg>
+    </msg_update>
+  </ClientMethods>
+  <BaseMethods>
+    <onGetHostName>
+      <Arg>MAILBOX</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>PYTHON</Arg>
+    </onGetHostName>
+    <onUpdateHostName>
+      <Arg>MAILBOX</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>PYTHON</Arg>
+    </onUpdateHostName>
+  </BaseMethods>
+</root>

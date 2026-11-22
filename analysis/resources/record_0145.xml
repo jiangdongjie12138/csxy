@@ -1,0 +1,22 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <epigrapherID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </epigrapherID>
+  </Properties>
+  <CellMethods>
+    <learnEpiskill>
+      <Exposed />
+    </learnEpiskill>
+  </CellMethods>
+  <ClientMethods>
+    <showLearnEpiskill />
+  </ClientMethods>
+</root>

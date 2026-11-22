@@ -1,0 +1,25 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <customNpcID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </customNpcID>
+  </Properties>
+  <CellMethods>
+    <onIntonateOver>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </onIntonateOver>
+    <onCancelIntonate>
+      <Arg>STRING</Arg>
+      <Arg>PYTHON</Arg>
+    </onCancelIntonate>
+  </CellMethods>
+  <ClientMethods />
+</root>

@@ -1,0 +1,28 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <weddingGiftLadyID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </weddingGiftLadyID>
+  </Properties>
+  <CellMethods>
+    <getBlessNote>
+      <Exposed />
+      <Arg>UINT16</Arg>
+    </getBlessNote>
+  </CellMethods>
+  <ClientMethods>
+    <show_bless_note>
+      <Arg>UINT16</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>ARRAY<of>BLESSNOTE_VAL</of>
+      </Arg>
+    </show_bless_note>
+  </ClientMethods>
+</root>

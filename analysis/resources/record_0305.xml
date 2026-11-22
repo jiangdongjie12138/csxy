@@ -1,0 +1,26 @@
+<root>
+  <Implements>
+    <Interface>iCellWithClient</Interface>
+    <Interface>iBaseWithCell</Interface>
+    <Interface>iPlaceble</Interface>
+  </Implements>
+  <Properties>
+    <host>
+      <Type>DBID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </host>
+    <ground>
+      <Type>UINT16</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </ground>
+    <aspect>
+      <Type>NPC_ASPECT</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </aspect>
+  </Properties>
+  <CellMethods>
+    <setHost>
+      <Arg>DBID</Arg>
+    </setHost>
+  </CellMethods>
+</root>

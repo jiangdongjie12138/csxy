@@ -1,0 +1,102 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <landGroundManagerID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </landGroundManagerID>
+  </Properties>
+  <CellMethods>
+    <vend>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+      <Arg>CASH</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>STRING</Arg>
+    </vend>
+    <bid>
+      <Exposed />
+      <Arg>UINT8</Arg>
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>CASH</Arg>
+    </bid>
+    <abort>
+      <Exposed />
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </abort>
+    <visit>
+      <Exposed />
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </visit>
+    <myauctions>
+      <Exposed />
+    </myauctions>
+    <otherauctions>
+      <Exposed />
+      <Arg>SPACE_NO</Arg>
+    </otherauctions>
+    <owners>
+      <Exposed />
+    </owners>
+    <open>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </open>
+    <close>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </close>
+    <drop>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </drop>
+    <mngfee>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+      <Arg>CASH</Arg>
+    </mngfee>
+    <enableMarriage>
+      <Exposed />
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </enableMarriage>
+    <disableMarriage>
+      <Exposed />
+      <Arg>LAND_HOME_TYPE</Arg>
+      <Arg>LAND_HOME_KEY</Arg>
+    </disableMarriage>
+  </CellMethods>
+  <ClientMethods>
+    <show_auction_dialog />
+    <show_manage_dialog />
+    <update_juluo_owners>
+      <Arg>ARRAY<of>SPACE_NO</of>
+      </Arg>
+      <Arg>ARRAY<of>LANDCLIENT_OWNER</of>
+      </Arg>
+      <Arg>SPACE_NO</Arg>
+      <Arg>UINT16</Arg>
+    </update_juluo_owners>
+  </ClientMethods>
+</root>

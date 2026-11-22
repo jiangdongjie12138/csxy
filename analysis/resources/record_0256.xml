@@ -1,0 +1,108 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <summonFighterID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </summonFighterID>
+  </Properties>
+  <CellMethods>
+    <summonDelNeidan>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </summonDelNeidan>
+    <summonLearnNeidan>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>UINT8</Arg>
+    </summonLearnNeidan>
+    <summonAddWooByItem>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </summonAddWooByItem>
+    <summonAddWooBySummon>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>POS</Arg>
+    </summonAddWooBySummon>
+    <summonRupu>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>GRIDS</Arg>
+    </summonRupu>
+    <summonXiulianSpell>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>SPELL_ID</Arg>
+    </summonXiulianSpell>
+    <summonXiulianBoost>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>GRIDS</Arg>
+    </summonXiulianBoost>
+    <summonMergeSpecial>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>POS</Arg>
+    </summonMergeSpecial>
+    <summonInheritSpell>
+      <Exposed />
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>POS</Arg>
+      <Arg>POS</Arg>
+    </summonInheritSpell>
+    <summonMergePaopao>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>POS</Arg>
+    </summonMergePaopao>
+    <summonChargeBookScore>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>GRIDS</Arg>
+    </summonChargeBookScore>
+    <summonReplaceSpell>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>SPELL_ID</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </summonReplaceSpell>
+    <summonNirvana>
+      <Exposed />
+      <Arg>POS</Arg>
+      <Arg>POS</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+    </summonNirvana>
+  </CellMethods>
+  <ClientMethods>
+    <show_addwoobyitem_dialog />
+    <show_addwoobysummon_dialog />
+    <show_delneidan_dialog />
+    <show_learnneidan_dialog />
+    <show_rupu_dialog>
+      <Arg>UINT8</Arg>
+    </show_rupu_dialog>
+    <show_xiulianspell_dialog />
+    <show_xiulianboost_dialog />
+    <show_mergespecial_dialog />
+    <show_inheritspell_dialog />
+    <show_mergepaopao_dialog />
+    <show_chargebookscore_dialog />
+    <show_replacespell_dialog />
+    <show_nirvana_dialog />
+  </ClientMethods>
+</root>

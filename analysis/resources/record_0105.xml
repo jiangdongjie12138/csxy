@@ -1,0 +1,40 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <roadBlockID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </roadBlockID>
+    <ClanDBID>
+      <Type>DBID</Type>
+      <Flags>BASE</Flags>
+      <Default>0</Default>
+    </ClanDBID>
+    <isOpened>
+      <Type>BOOL</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </isOpened>
+    <kind>
+      <Type>UINT8</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </kind>
+    <isInBiwu>
+      <Type>BOOL</Type>
+      <Flags>BASE</Flags>
+      <Default>false</Default>
+    </isInBiwu>
+  </Properties>
+  <CellMethods>
+    <openDoor />
+  </CellMethods>
+  <ClientMethods>
+    <openBlock />
+  </ClientMethods>
+</root>

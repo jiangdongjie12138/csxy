@@ -1,0 +1,23 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <questRetrieveManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </questRetrieveManID>
+  </Properties>
+  <CellMethods>
+    <retrieve>
+      <Exposed />
+      <Arg>UUID</Arg>
+    </retrieve>
+  </CellMethods>
+  <ClientMethods>
+    <showRetrieveDialog />
+  </ClientMethods>
+</root>

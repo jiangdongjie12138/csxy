@@ -1,0 +1,33 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <clanFubenTongziID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </clanFubenTongziID>
+    <tgdbid>
+      <Type>DBID</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Persistent>false</Persistent>
+      <Default>0</Default>
+    </tgdbid>
+    <tianguan>
+      <Type>LONGTIME</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Persistent>false</Persistent>
+      <Default>0</Default>
+    </tianguan>
+  </Properties>
+  <CellMethods>
+    <updateTianguan>
+      <Arg>DBID</Arg>
+      <Arg>LONGTIME</Arg>
+    </updateTianguan>
+  </CellMethods>
+  <ClientMethods />
+</root>

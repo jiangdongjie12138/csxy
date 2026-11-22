@@ -1,0 +1,31 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <strengthenManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </strengthenManID>
+  </Properties>
+  <CellMethods>
+    <equipStrengthen>
+      <Exposed />
+      <Arg>ITEM_CONT_POS_UUID</Arg>
+      <Arg>BOOL</Arg>
+    </equipStrengthen>
+    <intitleWeapon>
+      <Exposed />
+      <Arg>ITEM_POS_UUID</Arg>
+      <Arg>KEY_NAME</Arg>
+    </intitleWeapon>
+  </CellMethods>
+  <ClientMethods>
+    <showEquipStrengthenDialog />
+    <showIntitleWeapon />
+    <demoEquipStrengthen />
+  </ClientMethods>
+</root>

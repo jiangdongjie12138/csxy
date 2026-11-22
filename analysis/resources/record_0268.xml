@@ -1,0 +1,22 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <yueLaoID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </yueLaoID>
+  </Properties>
+  <CellMethods>
+    <beginMarry>
+      <Exposed />
+    </beginMarry>
+  </CellMethods>
+  <ClientMethods>
+    <checkMarry />
+  </ClientMethods>
+</root>

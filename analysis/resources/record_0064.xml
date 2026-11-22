@@ -1,0 +1,29 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <schoolBanditID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </schoolBanditID>
+    <status>
+      <Type>STATUS</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+      <Default>0</Default>
+    </status>
+    <school>
+      <Type>SCHOOL</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </school>
+    <attackers>
+      <Type>EID_ARRAY</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </attackers>
+  </Properties>
+  <CellMethods />
+  <ClientMethods />
+</root>

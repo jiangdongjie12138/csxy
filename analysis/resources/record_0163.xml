@@ -1,0 +1,158 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <restoreManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </restoreManID>
+  </Properties>
+  <CellMethods>
+    <showRestoreTalk>
+      <Arg>EID</Arg>
+    </showRestoreTalk>
+    <showAllRestoreDlg>
+      <Exposed />
+      <Arg>UINT8</Arg>
+    </showAllRestoreDlg>
+    <showAllRestorePage>
+      <Arg>EID</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>PYTHON</Arg>
+    </showAllRestorePage>
+    <createRestore>
+      <Exposed />
+      <Arg>DBID</Arg>
+      <Arg>KEY_NAME</Arg>
+    </createRestore>
+    <queryCreateRestoreOthers>
+      <Exposed />
+      <Arg>UINT16</Arg>
+    </queryCreateRestoreOthers>
+    <showCreateRestoreOthers>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>SIMPLE_RESTORE_OTHERS</Arg>
+    </showCreateRestoreOthers>
+    <createRestoreOthers>
+      <Exposed />
+      <Arg>UINT16</Arg>
+      <Arg>SIMPLE_RESTORE_OTHERS</Arg>
+    </createRestoreOthers>
+    <queryCreateRestoreItems>
+      <Exposed />
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+    </queryCreateRestoreItems>
+    <showCreateRestoreItems>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+    </showCreateRestoreItems>
+    <createRestoreItems>
+      <Exposed />
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>PAGE</Arg>
+      <Arg>POS</Arg>
+      <Arg>UUID</Arg>
+    </createRestoreItems>
+    <showRestorePasswordDlg>
+      <Arg>EID</Arg>
+    </showRestorePasswordDlg>
+    <gainRestoreOthers>
+      <Exposed />
+      <Arg>UINT16</Arg>
+      <Arg>UINT32</Arg>
+    </gainRestoreOthers>
+    <showRestoreItemPage>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+    </showRestoreItemPage>
+    <queryRestoreItemPage>
+      <Exposed />
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+    </queryRestoreItemPage>
+    <gainRestoreItem>
+      <Exposed />
+      <Arg>UINT16</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UUID</Arg>
+    </gainRestoreItem>
+    <onGainRestoreItem>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>ITEM_INFO</Arg>
+    </onGainRestoreItem>
+    <removeRestoreItem>&gt;<Exposed />
+      <Arg>UINT16</Arg>
+      <Arg>UINT16</Arg>
+    </removeRestoreItem>
+    <onRemoveRestoreItem>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>UINT16</Arg>
+    </onRemoveRestoreItem>
+    <removeRestore>
+      <Exposed />
+      <Arg>UINT16</Arg>
+    </removeRestore>
+    <onRemoveRestore>
+      <Arg>EID</Arg>
+      <Arg>UINT16</Arg>
+    </onRemoveRestore>
+  </CellMethods>
+  <ClientMethods>
+    <showAllRestorePage>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>PYTHON</Arg>
+    </showAllRestorePage>
+    <showCreateRestoreDlg />
+    <showCreateRestoreOthers>
+      <Arg>UINT16</Arg>
+      <Arg>SIMPLE_RESTORE_OTHERS</Arg>
+    </showCreateRestoreOthers>
+    <showCreateRestoreItems>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+    </showCreateRestoreItems>
+    <showRestorePasswordDlg />
+    <showRestoreItemPage>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+    </showRestoreItemPage>
+    <onGainRestoreItem>
+      <Arg>UINT16</Arg>
+      <Arg>UINT8</Arg>
+      <Arg>ITEM_INFO</Arg>
+    </onGainRestoreItem>
+    <onRemoveRestoreItem>
+      <Arg>UINT16</Arg>
+      <Arg>UINT16</Arg>
+    </onRemoveRestoreItem>
+    <onRemoveRestore>
+      <Arg>UINT16</Arg>
+    </onRemoveRestore>
+  </ClientMethods>
+</root>

@@ -1,0 +1,18 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+  </Implements>
+  <Properties>
+    <last>
+      <Type>TOP_EQUIP_INFO</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+    </last>
+    <current>
+      <Type>TOP_EQUIP_INFO</Type>
+      <Flags>BASE</Flags>
+      <Persistent>true</Persistent>
+    </current>
+  </Properties>
+  <BaseMethods />
+</root>

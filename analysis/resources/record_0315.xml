@@ -1,0 +1,16 @@
+<root>
+  <Properties>
+    <aspect>
+      <Type>INT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </aspect>
+    <owner>
+      <Type>INT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </owner>
+    <size>
+      <Type>FLOAT</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </size>
+  </Properties>
+</root>

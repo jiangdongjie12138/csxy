@@ -1,0 +1,20 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <xiehouManID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </xiehouManID>
+  </Properties>
+  <CellMethods>
+    <beginNewXiehou>
+      <Arg>EID</Arg>
+    </beginNewXiehou>
+  </CellMethods>
+  <ClientMethods />
+</root>

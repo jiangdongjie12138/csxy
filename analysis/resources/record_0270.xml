@@ -1,0 +1,46 @@
+<root>
+  <Implements>
+    <Interface>iBaseNoCell</Interface>
+    <Interface>iGlobal</Interface>
+  </Implements>
+  <Properties>
+    <systemMails>
+      <Type>PYTHON</Type>
+      <Flags>BASE</Flags>
+      <Default>[]</Default>
+    </systemMails>
+  </Properties>
+  <BaseMethods>
+    <onMailMaintenance />
+    <sendSystemMail>
+      <Arg>DBID</Arg>
+      <Arg>STRING</Arg>
+      <Arg>STRING</Arg>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+      <Arg>CASH</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>LONGTIME</Arg>
+    </sendSystemMail>
+    <sendSystemMails>
+      <Arg>DBID_ARRAY</Arg>
+      <Arg>STRING</Arg>
+      <Arg>STRING</Arg>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+      <Arg>CASH</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>LONGTIME</Arg>
+    </sendSystemMails>
+    <sendSystemMailToActivePlayers>
+      <Arg>UINT16</Arg>
+      <Arg>STRING</Arg>
+      <Arg>STRING</Arg>
+      <Arg>ARRAY<of>ITEM_INFO</of>
+      </Arg>
+      <Arg>CASH</Arg>
+      <Arg>UINT16</Arg>
+      <Arg>LONGTIME</Arg>
+    </sendSystemMailToActivePlayers>
+  </BaseMethods>
+</root>

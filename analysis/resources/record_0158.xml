@@ -1,0 +1,12 @@
+<root>
+  <Properties>
+    <modelDesc>
+      <Type>PYTHON</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </modelDesc>
+    <roleName>
+      <Type>KEY_NAME</Type>
+      <Flags>ALL_CLIENTS</Flags>
+    </roleName>
+  </Properties>
+</root>

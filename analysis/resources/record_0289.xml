@@ -1,0 +1,50 @@
+<root>
+  <Implements>
+    <Interface>iNpc</Interface>
+  </Implements>
+  <Volatile>
+    <position />
+  </Volatile>
+  <Properties>
+    <fubenEntrymanID>
+      <Type>NPC_ID</Type>
+      <Flags>OTHER_CLIENTS</Flags>
+    </fubenEntrymanID>
+  </Properties>
+  <CellMethods>
+    <showSelectFuben>
+      <Arg>MAILBOX</Arg>
+      <Arg>FUBEN_ID</Arg>
+      <Arg>FUBEN_ID</Arg>
+    </showSelectFuben>
+    <registerFuben>
+      <Exposed />
+      <Arg>FUBEN_ID</Arg>
+    </registerFuben>
+    <enterFuben>
+      <Exposed />
+      <Arg>FUBEN_ID</Arg>
+    </enterFuben>
+    <allDesertFuben>
+      <Exposed />
+    </allDesertFuben>
+    <enterFubenQueue>
+      <Exposed />
+      <Arg>FUBEN_ID</Arg>
+      <Arg>SPACE_NO</Arg>
+    </enterFubenQueue>
+    <refreshFubenQueue>
+      <Exposed />
+    </refreshFubenQueue>
+  </CellMethods>
+  <ClientMethods>
+    <show_team_fuben>
+      <Arg>FUBEN_ID</Arg>
+      <Arg>FUBEN_ID</Arg>
+    </show_team_fuben>
+    <show_queue_fuben>
+      <Arg>FUBEN_ID</Arg>
+      <Arg>FUBEN_QUEUE_INFOS</Arg>
+    </show_queue_fuben>
+  </ClientMethods>
+</root>

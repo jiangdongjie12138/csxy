@@ -1,0 +1,17 @@
+<root>
+  <Parent>Battlefield</Parent>
+  <Properties>
+    <pkLv>
+      <Type>LEVEL</Type>
+      <Flags>BASE</Flags>
+      <Default>0</Default>
+    </pkLv>
+    <evil>
+      <Type>UINT8</Type>
+      <Flags>BASE</Flags>
+      <Default>0</Default>
+    </evil>
+  </Properties>
+  <BaseMethods />
+  <CellMethods />
+</root>
